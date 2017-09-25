@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E604D681F7891010015042B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E604D671F7891010015042B /* main.m */; };
+		1E604D6B1F7891010015042B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E604D6A1F7891010015042B /* AppDelegate.m */; };
+		1E604D6E1F7891010015042B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E604D6D1F7891010015042B /* ViewController.m */; };
+		1E604D711F7891010015042B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E604D6F1F7891010015042B /* Main.storyboard */; };
+		1E604D731F7891010015042B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E604D721F7891010015042B /* Assets.xcassets */; };
+		1E604D761F7891010015042B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E604D741F7891010015042B /* LaunchScreen.storyboard */; };
+		1E604D811F7891010015042B /* XCPushNotificationExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E604D801F7891010015042B /* XCPushNotificationExampleTests.m */; };
+		1E604D8C1F7891010015042B /* XCPushNotificationExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E604D8B1F7891010015042B /* XCPushNotificationExampleUITests.m */; };
+		1E604DA91F7891710015042B /* XCPushApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E604D9C1F7891710015042B /* XCPushApplication.m */; };
+		1E604DAA1F7891710015042B /* XCPushNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E604D9E1F7891710015042B /* XCPushNotificationManager.m */; };
+		1E604DB81F7892330015042B /* XCPushNotificationConfigure.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1E604DB31F7892330015042B /* XCPushNotificationConfigure.xml */; };
+		1E604DB91F7892330015042B /* XCPushNotificationPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E604DB51F7892330015042B /* XCPushNotificationPlatform.m */; };
+		1E604DBA1F7892330015042B /* XCPushNotificationPlatformXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E604DB71F7892330015042B /* XCPushNotificationPlatformXMLParser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E604D7D1F7891010015042B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E604D5B1F7891010015042B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E604D621F7891010015042B;
+			remoteInfo = XCPushNotificationExample;
+		};
+		1E604D881F7891010015042B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E604D5B1F7891010015042B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E604D621F7891010015042B;
+			remoteInfo = XCPushNotificationExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E604D631F7891010015042B /* XCPushNotificationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCPushNotificationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E604D671F7891010015042B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E604D691F7891010015042B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E604D6A1F7891010015042B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E604D6C1F7891010015042B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1E604D6D1F7891010015042B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1E604D701F7891010015042B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E604D721F7891010015042B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E604D751F7891010015042B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E604D771F7891010015042B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E604D7C1F7891010015042B /* XCPushNotificationExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCPushNotificationExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E604D801F7891010015042B /* XCPushNotificationExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCPushNotificationExampleTests.m; sourceTree = "<group>"; };
+		1E604D821F7891010015042B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E604D871F7891010015042B /* XCPushNotificationExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCPushNotificationExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E604D8B1F7891010015042B /* XCPushNotificationExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCPushNotificationExampleUITests.m; sourceTree = "<group>"; };
+		1E604D8D1F7891010015042B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E604D9B1F7891710015042B /* XCPushApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPushApplication.h; sourceTree = "<group>"; };
+		1E604D9C1F7891710015042B /* XCPushApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPushApplication.m; sourceTree = "<group>"; };
+		1E604D9D1F7891710015042B /* XCPushNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPushNotificationManager.h; sourceTree = "<group>"; };
+		1E604D9E1F7891710015042B /* XCPushNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPushNotificationManager.m; sourceTree = "<group>"; };
+		1E604DAF1F7892330015042B /* XCPushNotificationFactoryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPushNotificationFactoryProtocol.h; sourceTree = "<group>"; };
+		1E604DB01F7892330015042B /* XCPushNotificationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPushNotificationProtocol.h; sourceTree = "<group>"; };
+		1E604DB11F7892330015042B /* XCPushNotificationAppDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPushNotificationAppDelegateProtocol.h; sourceTree = "<group>"; };
+		1E604DB31F7892330015042B /* XCPushNotificationConfigure.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = XCPushNotificationConfigure.xml; sourceTree = "<group>"; };
+		1E604DB41F7892330015042B /* XCPushNotificationPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPushNotificationPlatform.h; sourceTree = "<group>"; };
+		1E604DB51F7892330015042B /* XCPushNotificationPlatform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPushNotificationPlatform.m; sourceTree = "<group>"; };
+		1E604DB61F7892330015042B /* XCPushNotificationPlatformXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPushNotificationPlatformXMLParser.h; sourceTree = "<group>"; };
+		1E604DB71F7892330015042B /* XCPushNotificationPlatformXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPushNotificationPlatformXMLParser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E604D601F7891010015042B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E604D791F7891010015042B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E604D841F7891010015042B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E604D5A1F7891010015042B = {
+			isa = PBXGroup;
+			children = (
+				1E604D991F7891710015042B /* XCPushNotification */,
+				1E604D651F7891010015042B /* XCPushNotificationExample */,
+				1E604D7F1F7891010015042B /* XCPushNotificationExampleTests */,
+				1E604D8A1F7891010015042B /* XCPushNotificationExampleUITests */,
+				1E604D641F7891010015042B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E604D641F7891010015042B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E604D631F7891010015042B /* XCPushNotificationExample.app */,
+				1E604D7C1F7891010015042B /* XCPushNotificationExampleTests.xctest */,
+				1E604D871F7891010015042B /* XCPushNotificationExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E604D651F7891010015042B /* XCPushNotificationExample */ = {
+			isa = PBXGroup;
+			children = (
+				1E604D691F7891010015042B /* AppDelegate.h */,
+				1E604D6A1F7891010015042B /* AppDelegate.m */,
+				1E604D6C1F7891010015042B /* ViewController.h */,
+				1E604D6D1F7891010015042B /* ViewController.m */,
+				1E604D6F1F7891010015042B /* Main.storyboard */,
+				1E604D721F7891010015042B /* Assets.xcassets */,
+				1E604D741F7891010015042B /* LaunchScreen.storyboard */,
+				1E604D771F7891010015042B /* Info.plist */,
+				1E604D661F7891010015042B /* Supporting Files */,
+			);
+			path = XCPushNotificationExample;
+			sourceTree = "<group>";
+		};
+		1E604D661F7891010015042B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E604D671F7891010015042B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E604D7F1F7891010015042B /* XCPushNotificationExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E604D801F7891010015042B /* XCPushNotificationExampleTests.m */,
+				1E604D821F7891010015042B /* Info.plist */,
+			);
+			path = XCPushNotificationExampleTests;
+			sourceTree = "<group>";
+		};
+		1E604D8A1F7891010015042B /* XCPushNotificationExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E604D8B1F7891010015042B /* XCPushNotificationExampleUITests.m */,
+				1E604D8D1F7891010015042B /* Info.plist */,
+			);
+			path = XCPushNotificationExampleUITests;
+			sourceTree = "<group>";
+		};
+		1E604D991F7891710015042B /* XCPushNotification */ = {
+			isa = PBXGroup;
+			children = (
+				1E604D9A1F7891710015042B /* Classes */,
+			);
+			path = XCPushNotification;
+			sourceTree = "<group>";
+		};
+		1E604D9A1F7891710015042B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1E604D9B1F7891710015042B /* XCPushApplication.h */,
+				1E604D9C1F7891710015042B /* XCPushApplication.m */,
+				1E604D9D1F7891710015042B /* XCPushNotificationManager.h */,
+				1E604D9E1F7891710015042B /* XCPushNotificationManager.m */,
+				1E604DAE1F7892330015042B /* XCPushNotificationProtocol */,
+				1E604DB21F7892330015042B /* XCPushPlatformConfigure */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1E604DAE1F7892330015042B /* XCPushNotificationProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				1E604DAF1F7892330015042B /* XCPushNotificationFactoryProtocol.h */,
+				1E604DB01F7892330015042B /* XCPushNotificationProtocol.h */,
+				1E604DB11F7892330015042B /* XCPushNotificationAppDelegateProtocol.h */,
+			);
+			path = XCPushNotificationProtocol;
+			sourceTree = "<group>";
+		};
+		1E604DB21F7892330015042B /* XCPushPlatformConfigure */ = {
+			isa = PBXGroup;
+			children = (
+				1E604DB31F7892330015042B /* XCPushNotificationConfigure.xml */,
+				1E604DB41F7892330015042B /* XCPushNotificationPlatform.h */,
+				1E604DB51F7892330015042B /* XCPushNotificationPlatform.m */,
+				1E604DB61F7892330015042B /* XCPushNotificationPlatformXMLParser.h */,
+				1E604DB71F7892330015042B /* XCPushNotificationPlatformXMLParser.m */,
+			);
+			path = XCPushPlatformConfigure;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E604D621F7891010015042B /* XCPushNotificationExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E604D901F7891010015042B /* Build configuration list for PBXNativeTarget "XCPushNotificationExample" */;
+			buildPhases = (
+				1E604D5F1F7891010015042B /* Sources */,
+				1E604D601F7891010015042B /* Frameworks */,
+				1E604D611F7891010015042B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XCPushNotificationExample;
+			productName = XCPushNotificationExample;
+			productReference = 1E604D631F7891010015042B /* XCPushNotificationExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E604D7B1F7891010015042B /* XCPushNotificationExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E604D931F7891010015042B /* Build configuration list for PBXNativeTarget "XCPushNotificationExampleTests" */;
+			buildPhases = (
+				1E604D781F7891010015042B /* Sources */,
+				1E604D791F7891010015042B /* Frameworks */,
+				1E604D7A1F7891010015042B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E604D7E1F7891010015042B /* PBXTargetDependency */,
+			);
+			name = XCPushNotificationExampleTests;
+			productName = XCPushNotificationExampleTests;
+			productReference = 1E604D7C1F7891010015042B /* XCPushNotificationExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E604D861F7891010015042B /* XCPushNotificationExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E604D961F7891010015042B /* Build configuration list for PBXNativeTarget "XCPushNotificationExampleUITests" */;
+			buildPhases = (
+				1E604D831F7891010015042B /* Sources */,
+				1E604D841F7891010015042B /* Frameworks */,
+				1E604D851F7891010015042B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E604D891F7891010015042B /* PBXTargetDependency */,
+			);
+			name = XCPushNotificationExampleUITests;
+			productName = XCPushNotificationExampleUITests;
+			productReference = 1E604D871F7891010015042B /* XCPushNotificationExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E604D5B1F7891010015042B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "樊小聪";
+				TargetAttributes = {
+					1E604D621F7891010015042B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					1E604D7B1F7891010015042B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1E604D621F7891010015042B;
+					};
+					1E604D861F7891010015042B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1E604D621F7891010015042B;
+					};
+				};
+			};
+			buildConfigurationList = 1E604D5E1F7891010015042B /* Build configuration list for PBXProject "XCPushNotificationExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E604D5A1F7891010015042B;
+			productRefGroup = 1E604D641F7891010015042B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E604D621F7891010015042B /* XCPushNotificationExample */,
+				1E604D7B1F7891010015042B /* XCPushNotificationExampleTests */,
+				1E604D861F7891010015042B /* XCPushNotificationExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E604D611F7891010015042B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E604D761F7891010015042B /* LaunchScreen.storyboard in Resources */,
+				1E604DB81F7892330015042B /* XCPushNotificationConfigure.xml in Resources */,
+				1E604D731F7891010015042B /* Assets.xcassets in Resources */,
+				1E604D711F7891010015042B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E604D7A1F7891010015042B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E604D851F7891010015042B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E604D5F1F7891010015042B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E604DAA1F7891710015042B /* XCPushNotificationManager.m in Sources */,
+				1E604DA91F7891710015042B /* XCPushApplication.m in Sources */,
+				1E604D6E1F7891010015042B /* ViewController.m in Sources */,
+				1E604DB91F7892330015042B /* XCPushNotificationPlatform.m in Sources */,
+				1E604D6B1F7891010015042B /* AppDelegate.m in Sources */,
+				1E604DBA1F7892330015042B /* XCPushNotificationPlatformXMLParser.m in Sources */,
+				1E604D681F7891010015042B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E604D781F7891010015042B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E604D811F7891010015042B /* XCPushNotificationExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E604D831F7891010015042B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E604D8C1F7891010015042B /* XCPushNotificationExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E604D7E1F7891010015042B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E604D621F7891010015042B /* XCPushNotificationExample */;
+			targetProxy = 1E604D7D1F7891010015042B /* PBXContainerItemProxy */;
+		};
+		1E604D891F7891010015042B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E604D621F7891010015042B /* XCPushNotificationExample */;
+			targetProxy = 1E604D881F7891010015042B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E604D6F1F7891010015042B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E604D701F7891010015042B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E604D741F7891010015042B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E604D751F7891010015042B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E604D8E1F7891010015042B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E604D8F1F7891010015042B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E604D911F7891010015042B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XCPushNotificationExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ylh.XCPushNotificationExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E604D921F7891010015042B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XCPushNotificationExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ylh.XCPushNotificationExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1E604D941F7891010015042B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XCPushNotificationExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ylh.XCPushNotificationExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XCPushNotificationExample.app/XCPushNotificationExample";
+			};
+			name = Debug;
+		};
+		1E604D951F7891010015042B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XCPushNotificationExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ylh.XCPushNotificationExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XCPushNotificationExample.app/XCPushNotificationExample";
+			};
+			name = Release;
+		};
+		1E604D971F7891010015042B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XCPushNotificationExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ylh.XCPushNotificationExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XCPushNotificationExample;
+			};
+			name = Debug;
+		};
+		1E604D981F7891010015042B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XCPushNotificationExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ylh.XCPushNotificationExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XCPushNotificationExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E604D5E1F7891010015042B /* Build configuration list for PBXProject "XCPushNotificationExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E604D8E1F7891010015042B /* Debug */,
+				1E604D8F1F7891010015042B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E604D901F7891010015042B /* Build configuration list for PBXNativeTarget "XCPushNotificationExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E604D911F7891010015042B /* Debug */,
+				1E604D921F7891010015042B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E604D931F7891010015042B /* Build configuration list for PBXNativeTarget "XCPushNotificationExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E604D941F7891010015042B /* Debug */,
+				1E604D951F7891010015042B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E604D961F7891010015042B /* Build configuration list for PBXNativeTarget "XCPushNotificationExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E604D971F7891010015042B /* Debug */,
+				1E604D981F7891010015042B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E604D5B1F7891010015042B /* Project object */;
+}
