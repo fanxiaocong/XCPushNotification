@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XCPushNotification"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "XCPushNotification."
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,13 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "XCPushNotification/**/*.{h,m}"
+  s.source_files  = "XCPushNotification/*.{h,m}"
+  s.subspec 'XCPayPlatformConfigure' do |config|
+ 	config.source_files = "Classes/XCPayPlatformConfigure/*"
+  end
+  s.subspec 'XCPayProtocol' do |protocol|
+	protocol.source_files = "Classes/XCPayProtocol/*"
+  end
  #  s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
