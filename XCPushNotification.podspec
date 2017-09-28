@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "XCPushNotification/*.{h,m}"
+  s.source_files  = "XCPushNotification/Classes/*.{h,m}"
   s.subspec 'XCPushPlatformConfigure' do |config|
  	config.source_files = "XCPushNotification/Classes/XCPushPlatformConfigure/*"
   end
