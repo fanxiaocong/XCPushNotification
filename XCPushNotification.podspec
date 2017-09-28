@@ -94,10 +94,10 @@ Pod::Spec.new do |s|
 
   s.source_files  = "XCPushNotification/*.{h,m}"
   s.subspec 'XCPayPlatformConfigure' do |config|
- 	config.source_files = "XCPushNotification/Classes/XCPayPlatformConfigure/*"
+ 	config.source_files = "XCPushNotification/Classes/XCPushPlatformConfigure/*"
   end
   s.subspec 'XCPayProtocol' do |protocol|
-	protocol.source_files = "XCPushNotification/Classes/XCPayProtocol/*"
+	protocol.source_files = "XCPushNotification/Classes/XCPushNotificationProtocol/*"
   end
  #  s.exclude_files = "Classes/Exclude"
 
