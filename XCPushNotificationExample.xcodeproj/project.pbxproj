@@ -15,11 +15,16 @@
 		1E604D761F7891010015042B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E604D741F7891010015042B /* LaunchScreen.storyboard */; };
 		1E604D811F7891010015042B /* XCPushNotificationExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E604D801F7891010015042B /* XCPushNotificationExampleTests.m */; };
 		1E604D8C1F7891010015042B /* XCPushNotificationExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E604D8B1F7891010015042B /* XCPushNotificationExampleUITests.m */; };
-		1E604DA91F7891710015042B /* XCPushApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E604D9C1F7891710015042B /* XCPushApplication.m */; };
-		1E604DAA1F7891710015042B /* XCPushNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E604D9E1F7891710015042B /* XCPushNotificationManager.m */; };
-		1E604DB81F7892330015042B /* XCPushNotificationConfigure.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1E604DB31F7892330015042B /* XCPushNotificationConfigure.xml */; };
-		1E604DB91F7892330015042B /* XCPushNotificationPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E604DB51F7892330015042B /* XCPushNotificationPlatform.m */; };
-		1E604DBA1F7892330015042B /* XCPushNotificationPlatformXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E604DB71F7892330015042B /* XCPushNotificationPlatformXMLParser.m */; };
+		1E8B65E21F7DE017002FEC79 /* XCPushApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8B65D51F7DE017002FEC79 /* XCPushApplication.m */; };
+		1E8B65E31F7DE017002FEC79 /* XCPushNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8B65D71F7DE017002FEC79 /* XCPushNotificationManager.m */; };
+		1E8B65E41F7DE017002FEC79 /* XCPushNotificationConfigure.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1E8B65DD1F7DE017002FEC79 /* XCPushNotificationConfigure.xml */; };
+		1E8B65E51F7DE017002FEC79 /* XCPushNotificationPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8B65DF1F7DE017002FEC79 /* XCPushNotificationPlatform.m */; };
+		1E8B65E61F7DE017002FEC79 /* XCPushNotificationPlatformXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8B65E11F7DE017002FEC79 /* XCPushNotificationPlatformXMLParser.m */; };
+		1E8B65EC1F7DE03C002FEC79 /* JPushNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8B65E91F7DE03C002FEC79 /* JPushNotification.m */; };
+		1E8B65ED1F7DE03C002FEC79 /* JPushNotificationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8B65EB1F7DE03C002FEC79 /* JPushNotificationFactory.m */; };
+		2126DBCDD7CC8C90B91EBDF5 /* Pods_XCPushNotificationExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C260D39F7F7C4B2ECE6A93 /* Pods_XCPushNotificationExampleTests.framework */; };
+		416DC8B49B6BD1654898F18C /* Pods_XCPushNotificationExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4233728B084523335A01528A /* Pods_XCPushNotificationExample.framework */; };
+		9C609B54CA38A34921C89291 /* Pods_XCPushNotificationExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CF1F08AD1E0127E840D9AD /* Pods_XCPushNotificationExampleUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02CF1F08AD1E0127E840D9AD /* Pods_XCPushNotificationExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCPushNotificationExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FDF1B6D24CA521A32B56556 /* Pods-XCPushNotificationExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCPushNotificationExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XCPushNotificationExampleUITests/Pods-XCPushNotificationExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1E604D631F7891010015042B /* XCPushNotificationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCPushNotificationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E604D671F7891010015042B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1E604D691F7891010015042B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,18 +63,29 @@
 		1E604D871F7891010015042B /* XCPushNotificationExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCPushNotificationExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E604D8B1F7891010015042B /* XCPushNotificationExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCPushNotificationExampleUITests.m; sourceTree = "<group>"; };
 		1E604D8D1F7891010015042B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E604D9B1F7891710015042B /* XCPushApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPushApplication.h; sourceTree = "<group>"; };
-		1E604D9C1F7891710015042B /* XCPushApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPushApplication.m; sourceTree = "<group>"; };
-		1E604D9D1F7891710015042B /* XCPushNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPushNotificationManager.h; sourceTree = "<group>"; };
-		1E604D9E1F7891710015042B /* XCPushNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPushNotificationManager.m; sourceTree = "<group>"; };
-		1E604DAF1F7892330015042B /* XCPushNotificationFactoryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPushNotificationFactoryProtocol.h; sourceTree = "<group>"; };
-		1E604DB01F7892330015042B /* XCPushNotificationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPushNotificationProtocol.h; sourceTree = "<group>"; };
-		1E604DB11F7892330015042B /* XCPushNotificationAppDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPushNotificationAppDelegateProtocol.h; sourceTree = "<group>"; };
-		1E604DB31F7892330015042B /* XCPushNotificationConfigure.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = XCPushNotificationConfigure.xml; sourceTree = "<group>"; };
-		1E604DB41F7892330015042B /* XCPushNotificationPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPushNotificationPlatform.h; sourceTree = "<group>"; };
-		1E604DB51F7892330015042B /* XCPushNotificationPlatform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPushNotificationPlatform.m; sourceTree = "<group>"; };
-		1E604DB61F7892330015042B /* XCPushNotificationPlatformXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPushNotificationPlatformXMLParser.h; sourceTree = "<group>"; };
-		1E604DB71F7892330015042B /* XCPushNotificationPlatformXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPushNotificationPlatformXMLParser.m; sourceTree = "<group>"; };
+		1E8B65D41F7DE017002FEC79 /* XCPushApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPushApplication.h; sourceTree = "<group>"; };
+		1E8B65D51F7DE017002FEC79 /* XCPushApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPushApplication.m; sourceTree = "<group>"; };
+		1E8B65D61F7DE017002FEC79 /* XCPushNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPushNotificationManager.h; sourceTree = "<group>"; };
+		1E8B65D71F7DE017002FEC79 /* XCPushNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPushNotificationManager.m; sourceTree = "<group>"; };
+		1E8B65D91F7DE017002FEC79 /* XCPushNotificationAppDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPushNotificationAppDelegateProtocol.h; sourceTree = "<group>"; };
+		1E8B65DA1F7DE017002FEC79 /* XCPushNotificationFactoryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPushNotificationFactoryProtocol.h; sourceTree = "<group>"; };
+		1E8B65DB1F7DE017002FEC79 /* XCPushNotificationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPushNotificationProtocol.h; sourceTree = "<group>"; };
+		1E8B65DD1F7DE017002FEC79 /* XCPushNotificationConfigure.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = XCPushNotificationConfigure.xml; sourceTree = "<group>"; };
+		1E8B65DE1F7DE017002FEC79 /* XCPushNotificationPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPushNotificationPlatform.h; sourceTree = "<group>"; };
+		1E8B65DF1F7DE017002FEC79 /* XCPushNotificationPlatform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPushNotificationPlatform.m; sourceTree = "<group>"; };
+		1E8B65E01F7DE017002FEC79 /* XCPushNotificationPlatformXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCPushNotificationPlatformXMLParser.h; sourceTree = "<group>"; };
+		1E8B65E11F7DE017002FEC79 /* XCPushNotificationPlatformXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCPushNotificationPlatformXMLParser.m; sourceTree = "<group>"; };
+		1E8B65E81F7DE03C002FEC79 /* JPushNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPushNotification.h; sourceTree = "<group>"; };
+		1E8B65E91F7DE03C002FEC79 /* JPushNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPushNotification.m; sourceTree = "<group>"; };
+		1E8B65EA1F7DE03C002FEC79 /* JPushNotificationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPushNotificationFactory.h; sourceTree = "<group>"; };
+		1E8B65EB1F7DE03C002FEC79 /* JPushNotificationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPushNotificationFactory.m; sourceTree = "<group>"; };
+		4233728B084523335A01528A /* Pods_XCPushNotificationExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCPushNotificationExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CBB5795C4432E521E4A1900 /* Pods-XCPushNotificationExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCPushNotificationExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XCPushNotificationExampleTests/Pods-XCPushNotificationExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		7817B338AC0C8BCA2C968729 /* Pods-XCPushNotificationExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCPushNotificationExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XCPushNotificationExampleTests/Pods-XCPushNotificationExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		85E74C8ADF0A9BBFEF902952 /* Pods-XCPushNotificationExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCPushNotificationExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-XCPushNotificationExample/Pods-XCPushNotificationExample.release.xcconfig"; sourceTree = "<group>"; };
+		C621A7921972F0FEB3C715B4 /* Pods-XCPushNotificationExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCPushNotificationExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XCPushNotificationExample/Pods-XCPushNotificationExample.debug.xcconfig"; sourceTree = "<group>"; };
+		C9C260D39F7F7C4B2ECE6A93 /* Pods_XCPushNotificationExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCPushNotificationExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49B7858320A0FEB797A7B1F /* Pods-XCPushNotificationExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCPushNotificationExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XCPushNotificationExampleUITests/Pods-XCPushNotificationExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				416DC8B49B6BD1654898F18C /* Pods_XCPushNotificationExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2126DBCDD7CC8C90B91EBDF5 /* Pods_XCPushNotificationExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C609B54CA38A34921C89291 /* Pods_XCPushNotificationExampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +124,8 @@
 				1E604D7F1F7891010015042B /* XCPushNotificationExampleTests */,
 				1E604D8A1F7891010015042B /* XCPushNotificationExampleUITests */,
 				1E604D641F7891010015042B /* Products */,
+				670F4453FB4C3888DD7EE259 /* Pods */,
+				3CBEA829CDB8F1163E441032 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -161,44 +184,79 @@
 		1E604D991F7891710015042B /* XCPushNotification */ = {
 			isa = PBXGroup;
 			children = (
-				1E604D9A1F7891710015042B /* Classes */,
+				1E8B65D31F7DE017002FEC79 /* XCPushNotification */,
+				1E8B65E71F7DE03C002FEC79 /* JPushNotification */,
 			);
 			path = XCPushNotification;
 			sourceTree = "<group>";
 		};
-		1E604D9A1F7891710015042B /* Classes */ = {
+		1E8B65D31F7DE017002FEC79 /* XCPushNotification */ = {
 			isa = PBXGroup;
 			children = (
-				1E604D9B1F7891710015042B /* XCPushApplication.h */,
-				1E604D9C1F7891710015042B /* XCPushApplication.m */,
-				1E604D9D1F7891710015042B /* XCPushNotificationManager.h */,
-				1E604D9E1F7891710015042B /* XCPushNotificationManager.m */,
-				1E604DAE1F7892330015042B /* XCPushNotificationProtocol */,
-				1E604DB21F7892330015042B /* XCPushPlatformConfigure */,
+				1E8B65D41F7DE017002FEC79 /* XCPushApplication.h */,
+				1E8B65D51F7DE017002FEC79 /* XCPushApplication.m */,
+				1E8B65D61F7DE017002FEC79 /* XCPushNotificationManager.h */,
+				1E8B65D71F7DE017002FEC79 /* XCPushNotificationManager.m */,
+				1E8B65D81F7DE017002FEC79 /* XCPushNotificationProtocol */,
+				1E8B65DC1F7DE017002FEC79 /* XCPushPlatformConfigure */,
 			);
-			path = Classes;
+			path = XCPushNotification;
 			sourceTree = "<group>";
 		};
-		1E604DAE1F7892330015042B /* XCPushNotificationProtocol */ = {
+		1E8B65D81F7DE017002FEC79 /* XCPushNotificationProtocol */ = {
 			isa = PBXGroup;
 			children = (
-				1E604DAF1F7892330015042B /* XCPushNotificationFactoryProtocol.h */,
-				1E604DB01F7892330015042B /* XCPushNotificationProtocol.h */,
-				1E604DB11F7892330015042B /* XCPushNotificationAppDelegateProtocol.h */,
+				1E8B65D91F7DE017002FEC79 /* XCPushNotificationAppDelegateProtocol.h */,
+				1E8B65DA1F7DE017002FEC79 /* XCPushNotificationFactoryProtocol.h */,
+				1E8B65DB1F7DE017002FEC79 /* XCPushNotificationProtocol.h */,
 			);
 			path = XCPushNotificationProtocol;
 			sourceTree = "<group>";
 		};
-		1E604DB21F7892330015042B /* XCPushPlatformConfigure */ = {
+		1E8B65DC1F7DE017002FEC79 /* XCPushPlatformConfigure */ = {
 			isa = PBXGroup;
 			children = (
-				1E604DB31F7892330015042B /* XCPushNotificationConfigure.xml */,
-				1E604DB41F7892330015042B /* XCPushNotificationPlatform.h */,
-				1E604DB51F7892330015042B /* XCPushNotificationPlatform.m */,
-				1E604DB61F7892330015042B /* XCPushNotificationPlatformXMLParser.h */,
-				1E604DB71F7892330015042B /* XCPushNotificationPlatformXMLParser.m */,
+				1E8B65DD1F7DE017002FEC79 /* XCPushNotificationConfigure.xml */,
+				1E8B65DE1F7DE017002FEC79 /* XCPushNotificationPlatform.h */,
+				1E8B65DF1F7DE017002FEC79 /* XCPushNotificationPlatform.m */,
+				1E8B65E01F7DE017002FEC79 /* XCPushNotificationPlatformXMLParser.h */,
+				1E8B65E11F7DE017002FEC79 /* XCPushNotificationPlatformXMLParser.m */,
 			);
 			path = XCPushPlatformConfigure;
+			sourceTree = "<group>";
+		};
+		1E8B65E71F7DE03C002FEC79 /* JPushNotification */ = {
+			isa = PBXGroup;
+			children = (
+				1E8B65E81F7DE03C002FEC79 /* JPushNotification.h */,
+				1E8B65E91F7DE03C002FEC79 /* JPushNotification.m */,
+				1E8B65EA1F7DE03C002FEC79 /* JPushNotificationFactory.h */,
+				1E8B65EB1F7DE03C002FEC79 /* JPushNotificationFactory.m */,
+			);
+			path = JPushNotification;
+			sourceTree = "<group>";
+		};
+		3CBEA829CDB8F1163E441032 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4233728B084523335A01528A /* Pods_XCPushNotificationExample.framework */,
+				C9C260D39F7F7C4B2ECE6A93 /* Pods_XCPushNotificationExampleTests.framework */,
+				02CF1F08AD1E0127E840D9AD /* Pods_XCPushNotificationExampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		670F4453FB4C3888DD7EE259 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C621A7921972F0FEB3C715B4 /* Pods-XCPushNotificationExample.debug.xcconfig */,
+				85E74C8ADF0A9BBFEF902952 /* Pods-XCPushNotificationExample.release.xcconfig */,
+				7817B338AC0C8BCA2C968729 /* Pods-XCPushNotificationExampleTests.debug.xcconfig */,
+				6CBB5795C4432E521E4A1900 /* Pods-XCPushNotificationExampleTests.release.xcconfig */,
+				0FDF1B6D24CA521A32B56556 /* Pods-XCPushNotificationExampleUITests.debug.xcconfig */,
+				F49B7858320A0FEB797A7B1F /* Pods-XCPushNotificationExampleUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E604D901F7891010015042B /* Build configuration list for PBXNativeTarget "XCPushNotificationExample" */;
 			buildPhases = (
+				CAD35AECF036A4BF7E097B92 /* [CP] Check Pods Manifest.lock */,
 				1E604D5F1F7891010015042B /* Sources */,
 				1E604D601F7891010015042B /* Frameworks */,
 				1E604D611F7891010015042B /* Resources */,
+				ED8725A85802142CE27374E3 /* [CP] Embed Pods Frameworks */,
+				79EB73EE1BB7960E3C7B0992 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,9 +286,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E604D931F7891010015042B /* Build configuration list for PBXNativeTarget "XCPushNotificationExampleTests" */;
 			buildPhases = (
+				B8335AA46C436D957C699969 /* [CP] Check Pods Manifest.lock */,
 				1E604D781F7891010015042B /* Sources */,
 				1E604D791F7891010015042B /* Frameworks */,
 				1E604D7A1F7891010015042B /* Resources */,
+				146F9A9BFD92DD8B41BD37B5 /* [CP] Embed Pods Frameworks */,
+				5C482068678AB37C5C1147D0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +307,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E604D961F7891010015042B /* Build configuration list for PBXNativeTarget "XCPushNotificationExampleUITests" */;
 			buildPhases = (
+				FD6784C1093B705ED6645F7F /* [CP] Check Pods Manifest.lock */,
 				1E604D831F7891010015042B /* Sources */,
 				1E604D841F7891010015042B /* Frameworks */,
 				1E604D851F7891010015042B /* Resources */,
+				6B95AE92C0B52FEF9638D9B4 /* [CP] Embed Pods Frameworks */,
+				BF5B2D454B9B3F82AE4CD06B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -308,8 +375,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E604D761F7891010015042B /* LaunchScreen.storyboard in Resources */,
-				1E604DB81F7892330015042B /* XCPushNotificationConfigure.xml in Resources */,
 				1E604D731F7891010015042B /* Assets.xcassets in Resources */,
+				1E8B65E41F7DE017002FEC79 /* XCPushNotificationConfigure.xml in Resources */,
 				1E604D711F7891010015042B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,18 +397,167 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		146F9A9BFD92DD8B41BD37B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XCPushNotificationExampleTests/Pods-XCPushNotificationExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C482068678AB37C5C1147D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XCPushNotificationExampleTests/Pods-XCPushNotificationExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B95AE92C0B52FEF9638D9B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XCPushNotificationExampleUITests/Pods-XCPushNotificationExampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79EB73EE1BB7960E3C7B0992 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XCPushNotificationExample/Pods-XCPushNotificationExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8335AA46C436D957C699969 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XCPushNotificationExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF5B2D454B9B3F82AE4CD06B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XCPushNotificationExampleUITests/Pods-XCPushNotificationExampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAD35AECF036A4BF7E097B92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XCPushNotificationExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED8725A85802142CE27374E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XCPushNotificationExample/Pods-XCPushNotificationExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD6784C1093B705ED6645F7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XCPushNotificationExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1E604D5F1F7891010015042B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E604DAA1F7891710015042B /* XCPushNotificationManager.m in Sources */,
-				1E604DA91F7891710015042B /* XCPushApplication.m in Sources */,
+				1E8B65E51F7DE017002FEC79 /* XCPushNotificationPlatform.m in Sources */,
+				1E8B65E61F7DE017002FEC79 /* XCPushNotificationPlatformXMLParser.m in Sources */,
 				1E604D6E1F7891010015042B /* ViewController.m in Sources */,
-				1E604DB91F7892330015042B /* XCPushNotificationPlatform.m in Sources */,
+				1E8B65E21F7DE017002FEC79 /* XCPushApplication.m in Sources */,
 				1E604D6B1F7891010015042B /* AppDelegate.m in Sources */,
-				1E604DBA1F7892330015042B /* XCPushNotificationPlatformXMLParser.m in Sources */,
 				1E604D681F7891010015042B /* main.m in Sources */,
+				1E8B65ED1F7DE03C002FEC79 /* JPushNotificationFactory.m in Sources */,
+				1E8B65E31F7DE017002FEC79 /* XCPushNotificationManager.m in Sources */,
+				1E8B65EC1F7DE03C002FEC79 /* JPushNotification.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +702,7 @@
 		};
 		1E604D911F7891010015042B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C621A7921972F0FEB3C715B4 /* Pods-XCPushNotificationExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XCPushNotificationExample/Info.plist;
@@ -497,6 +714,7 @@
 		};
 		1E604D921F7891010015042B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85E74C8ADF0A9BBFEF902952 /* Pods-XCPushNotificationExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XCPushNotificationExample/Info.plist;
@@ -508,6 +726,7 @@
 		};
 		1E604D941F7891010015042B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7817B338AC0C8BCA2C968729 /* Pods-XCPushNotificationExampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = XCPushNotificationExampleTests/Info.plist;
@@ -520,6 +739,7 @@
 		};
 		1E604D951F7891010015042B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CBB5795C4432E521E4A1900 /* Pods-XCPushNotificationExampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = XCPushNotificationExampleTests/Info.plist;
@@ -532,6 +752,7 @@
 		};
 		1E604D971F7891010015042B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FDF1B6D24CA521A32B56556 /* Pods-XCPushNotificationExampleUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = XCPushNotificationExampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -543,6 +764,7 @@
 		};
 		1E604D981F7891010015042B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F49B7858320A0FEB797A7B1F /* Pods-XCPushNotificationExampleUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = XCPushNotificationExampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

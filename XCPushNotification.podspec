@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XCPushNotification"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "XCPushNotification."
 
   # This description is used to generate tags and improve search results.
@@ -26,6 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
 	XCPushNoticiation 封装远程推送相关的操作
+	添加 JPush远程推送通知
                    DESC
 
 
@@ -92,7 +93,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "XCPushNotification/Classes/*.{h,m}"
+  s.source_files  = "XCPushNotification/XCPushNotification/**/*.{h,m}"
   s.subspec 'XCPushPlatformConfigure' do |config|
  	config.source_files = "XCPushNotification/Classes/XCPushPlatformConfigure/*"
   end
