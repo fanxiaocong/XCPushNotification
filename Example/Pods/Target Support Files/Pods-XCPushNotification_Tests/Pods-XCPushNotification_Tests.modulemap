@@ -1,0 +1,6 @@
+framework module Pods_XCPushNotification_Tests {
+  umbrella header "Pods-XCPushNotification_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

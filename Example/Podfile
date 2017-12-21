@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XCPushNotification_Example' do
+  pod 'XCPushNotification', :path => '../'
+
+  target 'XCPushNotification_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

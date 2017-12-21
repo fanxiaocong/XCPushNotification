@@ -1,0 +1,6 @@
+framework module XCPushNotification {
+  umbrella header "XCPushNotification-umbrella.h"
+
+  export *
+  module * { export * }
+}
