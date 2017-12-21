@@ -48,7 +48,7 @@
 		2CAA4D16EBBA38B06D7361F1236B7160 /* Pods-XCPushNotification_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XCPushNotification_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		30135B29D6EF4AD0934C987E81BEE6A5 /* XCPushNotificationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCPushNotificationManager.m; path = XCPushNotification/Classes/XCPushNotification/XCPushNotificationManager.m; sourceTree = "<group>"; };
 		3D6F3839FC212EC9ADB199395F6A2CB7 /* Pods-XCPushNotification_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCPushNotification_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4256AFBBD968479A188E728AD8A88464 /* XCPushNotification.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XCPushNotification.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4256AFBBD968479A188E728AD8A88464 /* XCPushNotification.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = XCPushNotification.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		474CEBC534B9EAB52EE2F7D8AE5126EC /* XCPushNotificationFactoryProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCPushNotificationFactoryProtocol.h; sourceTree = "<group>"; };
 		507046ACD65FD5C88952F933ECE6AC8D /* JPushNotificationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPushNotificationFactory.h; path = XCPushNotification/Classes/JPushNotification/JPushNotificationFactory.h; sourceTree = "<group>"; };
 		58AAB9024492720EAC41D71F6A80E984 /* Pods-XCPushNotification_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCPushNotification_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -58,34 +58,34 @@
 		64F1610E956D83B85717F9B9EB3AE8F1 /* XCPushNotificationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCPushNotificationProtocol.h; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		66D8F3ED1AC09B10402AF3BF5C62C530 /* XCPushNotification.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCPushNotification.xcconfig; sourceTree = "<group>"; };
-		67B3BF1B4FD9EBBF8F0E877F7BB6D693 /* Pods_XCPushNotification_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XCPushNotification_Example.framework; path = "Pods-XCPushNotification_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B3BF1B4FD9EBBF8F0E877F7BB6D693 /* Pods_XCPushNotification_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCPushNotification_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68C9D32B6A3BF336F3ED0184D7EF0221 /* JPushNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPushNotification.m; path = XCPushNotification/Classes/JPushNotification/JPushNotification.m; sourceTree = "<group>"; };
 		6B1D8122E1CFA2623B466DC300593458 /* JPUSHService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
 		6CED33F5FD9ED660D1DEFD38D6E3D908 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E72B46031D92345A750E49F3EF7BF6A /* Pods-XCPushNotification_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XCPushNotification_Tests-dummy.m"; sourceTree = "<group>"; };
 		732ADBB8D1406FF37C7703A4FA415146 /* XCMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCMacros.h; path = XCMacros/XCMacros.h; sourceTree = "<group>"; };
-		76ECDF84538C4F14D7EBDA8D79170257 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		76ECDF84538C4F14D7EBDA8D79170257 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7867508E58FC9BC114BD11BC8D4E322B /* Pods-XCPushNotification_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCPushNotification_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7909A6D7955A0308242F5A9BAC836B04 /* XCPushNotification-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XCPushNotification-dummy.m"; sourceTree = "<group>"; };
 		7CD4F56A595F6EF9BED68F37AE11547A /* Pods-XCPushNotification_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCPushNotification_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		7CFEC09AA04393E0C9B44A04825BDCFD /* JPushNotificationFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPushNotificationFactory.m; path = XCPushNotification/Classes/JPushNotification/JPushNotificationFactory.m; sourceTree = "<group>"; };
 		85EFECD4434C8D2C5AA1ED0426A2AA29 /* Pods-XCPushNotification_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XCPushNotification_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8A86A5367424FD335D9FA3B4D0986884 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A146FCA13593BAC45209613B93D28101 /* Pods_XCPushNotification_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XCPushNotification_Tests.framework; path = "Pods-XCPushNotification_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3E77F9B6999688398A6910E9CAC7FF9 /* Pods-XCPushNotification_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-XCPushNotification_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A146FCA13593BAC45209613B93D28101 /* Pods_XCPushNotification_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCPushNotification_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3E77F9B6999688398A6910E9CAC7FF9 /* Pods-XCPushNotification_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-XCPushNotification_Example.modulemap"; sourceTree = "<group>"; };
 		A4A19015953E58C2E7A00BC74BB47C9E /* Pods-XCPushNotification_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCPushNotification_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A696241ADB62586BFA2A40DAB3972E99 /* XCPushNotificationAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCPushNotificationAppDelegate.h; path = XCPushNotification/Classes/XCPushNotification/XCPushNotificationAppDelegate.h; sourceTree = "<group>"; };
 		A736CA739D2347E090F4D09840825CF2 /* XCPushNotificationAppDelegateProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCPushNotificationAppDelegateProtocol.h; sourceTree = "<group>"; };
 		B05A076825979844E55FC836327D14B2 /* XCPushNotificationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCPushNotificationManager.h; path = XCPushNotification/Classes/XCPushNotification/XCPushNotificationManager.h; sourceTree = "<group>"; };
 		B8A290F54773309DE43520E4EA7BB97C /* libjpush-ios-3.0.7.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjpush-ios-3.0.7.a"; sourceTree = "<group>"; };
-		CE454CC90838F7E3F773D401C7AFF36B /* Pods-XCPushNotification_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-XCPushNotification_Tests.modulemap"; sourceTree = "<group>"; };
-		CEABD7D25A3AEA9001C5EB8E49D0035F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CE454CC90838F7E3F773D401C7AFF36B /* Pods-XCPushNotification_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-XCPushNotification_Tests.modulemap"; sourceTree = "<group>"; };
+		CEABD7D25A3AEA9001C5EB8E49D0035F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CFBFACF5B89233DB03A37C652F6B4FC7 /* JPushNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPushNotification.h; path = XCPushNotification/Classes/JPushNotification/JPushNotification.h; sourceTree = "<group>"; };
 		DB20681B139A7B189601A622A540C4E7 /* XCPushNotification.framework */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = XCPushNotification.framework; path = libXCPushNotification.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF35ADFC695C705C71EF5DDB8C7D6FD0 /* Pods-XCPushNotification_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCPushNotification_Example-frameworks.sh"; sourceTree = "<group>"; };
 		ED0614DCC8580463ED042283DFACE8B6 /* Pods-XCPushNotification_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCPushNotification_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EF58D080E55BE45609B557D702EAF38F /* XCPushNotification.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = XCPushNotification.modulemap; sourceTree = "<group>"; };
+		EF58D080E55BE45609B557D702EAF38F /* XCPushNotification.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = XCPushNotification.modulemap; sourceTree = "<group>"; };
 		F11FDDC2DF6864F5CA34A0F9F1567536 /* XCPushNotification-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCPushNotification-prefix.pch"; sourceTree = "<group>"; };
 		F4BC7D0C57CA865CA7B911D249A336F6 /* Pods-XCPushNotification_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCPushNotification_Example-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,7 +142,6 @@
 			children = (
 				6E0EF9A266A484671D50421757F48876 /* Frameworks */,
 			);
-			name = JCore;
 			path = JCore;
 			sourceTree = "<group>";
 		};
@@ -309,7 +308,6 @@
 				6B1D8122E1CFA2623B466DC300593458 /* JPUSHService.h */,
 				B480D4C2D980FFB97DD7D59488FAC98B /* Frameworks */,
 			);
-			name = JPush;
 			path = JPush;
 			sourceTree = "<group>";
 		};
@@ -328,7 +326,6 @@
 			children = (
 				732ADBB8D1406FF37C7703A4FA415146 /* XCMacros.h */,
 			);
-			name = XCMacros;
 			path = XCMacros;
 			sourceTree = "<group>";
 		};
@@ -464,7 +461,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Modules\"\n# The fat library archive is at a file symbolic link when archiving, so use -L option\nrsync -tL \"${BUILT_PRODUCTS_DIR}/lib${PRODUCT_NAME}.a\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\nrsync -t \"${MODULEMAP_FILE}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Modules/module.modulemap\"\n# If there's a .swiftmodule, copy it into the framework's Modules folder\nrsync -tr \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}\".swiftmodule \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Modules/\" 2>/dev/null || :\n# If archiving, Headers copy is needed\nrsync -tr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.framework/Headers\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/\" 2>/dev/null || :\nrsync -tr \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.framework/PrivateHeaders\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/\" 2>/dev/null || :\n";
-			showEnvVarsInLog = 1;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -598,6 +594,7 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
@@ -675,6 +672,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
+				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};
