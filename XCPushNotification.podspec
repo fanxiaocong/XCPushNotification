@@ -14,15 +14,11 @@ XCPushNotification封装第三方推送功能，目前已经集成了 JPush 推�
   s.source           = { :git => 'https://github.com/fanxiaocong/XCPushNotification.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.3'
-
+  
   s.subspec 'XCPushNotification' do |mgr|
       mgr.source_files = 'XCPushNotification/Classes/XCPushNotification/*.{h,m}',
                          'XCPushNotification/Classes/XCPushNotification/XCPushNotificationProtocol/*.{h,m}'
-      mgr.xcconfig  = {
-           'VALID_ARCHS' => ['armv7', 'armv7s', 'arm64', 'x86_64']
-      }
   end
-
 
 
 # 测试
@@ -71,6 +67,9 @@ XCPushNotification封装第三方推送功能，目前已经集成了 JPush 推�
       jpush.dependency 'XCPushNotification/XCPushNotification'
       jpush.dependency 'XCMacros'
       jpush.dependency 'JPush', '~> 3.0.6'
+      jpush.xcconfig = {
+          'VALID_ARCHS' => ['armv7', 'armv7s', 'arm64', 'x86_64']
+      }
   end
 
 end

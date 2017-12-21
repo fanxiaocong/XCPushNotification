@@ -25,15 +25,7 @@
       "source_files": [
         "XCPushNotification/Classes/XCPushNotification/*.{h,m}",
         "XCPushNotification/Classes/XCPushNotification/XCPushNotificationProtocol/*.{h,m}"
-      ],
-      "xcconfig": {
-        "VALID_ARCHS": [
-          "armv7",
-          "armv7s",
-          "arm64",
-          "x86_64"
-        ]
-      }
+      ]
     },
     {
       "name": "JPushNotification",
@@ -47,6 +39,14 @@
         ],
         "JPush": [
           "~> 3.0.6"
+        ]
+      },
+      "xcconfig": {
+        "VALID_ARCHS": [
+          "armv7",
+          "armv7s",
+          "arm64",
+          "x86_64"
         ]
       }
     }
