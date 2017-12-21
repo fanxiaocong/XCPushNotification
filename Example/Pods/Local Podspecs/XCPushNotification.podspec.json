@@ -18,6 +18,7 @@
   "platforms": {
     "ios": "8.3"
   },
+  "static_framework": true,
   "subspecs": [
     {
       "name": "XCPushNotification",
@@ -31,6 +32,21 @@
           "armv7s",
           "arm64",
           "x86_64"
+        ]
+      }
+    },
+    {
+      "name": "JPushNotification",
+      "source_files": "XCPushNotification/Classes/JPushNotification/*.{h,m}",
+      "dependencies": {
+        "XCPushNotification/XCPushNotification": [
+
+        ],
+        "XCMacros": [
+
+        ],
+        "JPush": [
+          "~> 3.0.6"
         ]
       }
     }

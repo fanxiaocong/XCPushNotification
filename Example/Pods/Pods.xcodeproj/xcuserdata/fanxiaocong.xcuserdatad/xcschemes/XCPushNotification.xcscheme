@@ -17,7 +17,7 @@
                BlueprintIdentifier = '0AAE1AC7EC354C2875F530B5B710030D'
                BlueprintName = 'XCPushNotification'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'XCPushNotification.framework'>
+               BuildableName = 'libXCPushNotification.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
