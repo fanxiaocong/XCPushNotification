@@ -10,8 +10,6 @@
 #endif
 #endif
 
-#import "JPushNotification.h"
-#import "JPushNotificationFactory.h"
 #import "XCPushNotificationAppDelegate.h"
 #import "XCPushNotificationManager.h"
 #import "XCPushNotificationAppDelegateProtocol.h"

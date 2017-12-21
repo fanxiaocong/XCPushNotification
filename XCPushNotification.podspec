@@ -18,7 +18,11 @@ XCPushNotification封装第三方推送功能，目前已经集成了 JPush 推�
   s.subspec 'XCPushNotification' do |mgr|
       mgr.source_files = 'XCPushNotification/Classes/XCPushNotification/*.{h,m}',
                          'XCPushNotification/Classes/XCPushNotification/XCPushNotificationProtocol/*.{h,m}'
+      mgr.xcconfig  = {
+           'VALID_ARCHS' => ['armv7', 'armv7s', 'arm64', 'x86_64']
+      }
   end
+
 
 
 # 测试
@@ -60,17 +64,18 @@ XCPushNotification封装第三方推送功能，目前已经集成了 JPush 推�
 # 测试
 # 测试
 
-
-
+=begin
   s.static_framework = true
   s.subspec 'JPushNotification' do |jpush|
       jpush.source_files = 'XCPushNotification/Classes/JPushNotification/*.{h,m}'
       jpush.dependency 'XCPushNotification/XCPushNotification'
       jpush.dependency 'XCMacros'
       jpush.dependency 'JPush', '~> 3.0.6'
-      jpush.xcconfig = {
-          'VALID_ARCHS' => ['armv7', 'armv7s', 'arm64', 'x86_64']
+      jpush.xcconfig  = {
+          'VALID_ARCHS' => ['armv7', 'armv7s', 'arm64', 'x86_64'],
+          'ENABLE_BITCODE' => 'NO',
+          'ONLY_ACTIVE_ARCH' => 'NO'
       }
   end
-
+=end
 end
