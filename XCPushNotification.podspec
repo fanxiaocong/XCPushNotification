@@ -68,6 +68,9 @@ XCPushNotification封装第三方推送功能，目前已经集成了 JPush 推�
       jpush.dependency 'XCPushNotification/XCPushNotification'
       jpush.dependency 'XCMacros'
       jpush.dependency 'JPush', '~> 3.0.6'
+      jpush.xcconfig = {
+          'VALID_ARCHS' => ['armv7', 'armv7s', 'arm64', 'x86_64']
+      }
   end
 
 end
