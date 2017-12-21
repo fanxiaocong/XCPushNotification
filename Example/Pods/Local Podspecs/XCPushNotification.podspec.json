@@ -41,12 +41,11 @@
           "~> 3.0.6"
         ]
       },
-      "pod_target_xcconfig": {
+      "xcconfig": {
         "VALID_ARCHS": [
           "armv7",
           "armv7s",
-          "arm64",
-          "x86_64"
+          "arm64"
         ]
       }
     }
