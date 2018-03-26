@@ -24,7 +24,7 @@
  */
 + (void)pushApplication:(UIApplication *)app didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    if ([[self pushNotification] respondsToSelector:@selector(applicationDidFinishLaunching:)])
+    if ([[self pushNotification] respondsToSelector:@selector(application:didFinishLaunchingWithOptions:)])
     {
         [[self pushNotification] application:app didFinishLaunchingWithOptions:launchOptions];
     }

@@ -17,7 +17,7 @@
 
 @required
 /** 👀 收到远程通知的回调 👀 */
-@property (copy, nonatomic) void(^didReceiveRemoteNotificationHandle)(NSDictionary *userInfo);
+@property (copy, nonatomic) void(^didReceiveRemoteNotificationHandle)(UIApplication *app, NSDictionary *userInfo);
 
 /**
  *  实例化推送对象
@@ -38,3 +38,4 @@
 - (void)logout;
 
 @end
+

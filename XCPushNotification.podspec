@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XCPushNotification'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'XCPushNotification封装第三方推送功能，目前已经集成了 JPush 推送'
 
   s.description      = <<-DESC
@@ -18,6 +18,17 @@ XCPushNotification封装第三方推送功能，目前已经集成了 JPush 推�
   s.subspec 'XCPushNotification' do |mgr|
       mgr.source_files = 'XCPushNotification/Classes/XCPushNotification/*.{h,m}',
                          'XCPushNotification/Classes/XCPushNotification/XCPushNotificationProtocol/*.{h,m}'
+  end
+  
+  s.static_framework = true
+  s.subspec 'JPushNotification' do |jpush|
+      jpush.source_files = 'XCPushNotification/Classes/JPushNotification/*.{h,m}'
+      jpush.dependency 'XCPushNotification/XCPushNotification'
+      jpush.dependency 'XCMacros'
+      jpush.dependency 'JPush', '~> 3.0.6'
+      jpush.xcconfig = {
+          'VALID_ARCHS' => 'arm64 x86_64'
+      }
   end
 
 
@@ -61,15 +72,5 @@ XCPushNotification封装第三方推送功能，目前已经集成了 JPush 推�
 # 测试
 
 
-  s.static_framework = true
-  s.subspec 'JPushNotification' do |jpush|
-      jpush.source_files = 'XCPushNotification/Classes/JPushNotification/*.{h,m}'
-      jpush.dependency 'XCPushNotification/XCPushNotification'
-      jpush.dependency 'XCMacros'
-      jpush.dependency 'JPush', '~> 3.0.6'
-      jpush.xcconfig = {
-          'VALID_ARCHS' => 'arm64 x86_64'
-      }
-  end
 
 end

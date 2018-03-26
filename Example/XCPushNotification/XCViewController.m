@@ -24,7 +24,7 @@
     /// 收到推送的回调
     id<XCPushNotificationFactoryProtocol> pushFactory = [XCPushNotificationManager sharePushNotificationManager].pushFactory;
     id<XCPushNotificationProtocol> push = pushFactory.pushNotification;
-    push.didReceiveRemoteNotificationHandle = ^(NSDictionary *userInfo) {
+    push.didReceiveRemoteNotificationHandle = ^(UIApplication *app, NSDictionary *userInfo) {
         NSLog(@"收到了远程推送");
     };
 }

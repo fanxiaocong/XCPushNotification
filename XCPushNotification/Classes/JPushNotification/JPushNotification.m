@@ -23,7 +23,7 @@ static NSString * const JPushChannel = @"Publish channel";
 
 @interface JPushNotification ()
 
-@property (copy, nonatomic) void(^privateDidReceiveRemoteNotificationHandle)(NSDictionary *userInfo);
+@property (copy, nonatomic) void(^privateDidReceiveRemoteNotificationHandle)(UIApplication *app, NSDictionary *userInfo);
 
 @end
 
@@ -46,7 +46,7 @@ static NSString * const JPushChannel = @"Publish channel";
     DLog(@"alias:  %@", alias);
     
     // 提交推送唯一标示符
-BeginIgnoreDeprecatedWarning
+    BeginIgnoreDeprecatedWarning
     [JPUSHService setTags:nil alias:alias fetchCompletionHandle:^(int iResCode, NSSet *iTags, NSString *iAlias) {
         
         DLog(@"iResCode = %d, alias = %@", iResCode, alias);
@@ -95,12 +95,12 @@ BeginIgnoreDeprecatedWarning
     [self setJPushAlias:@""];
 }
 
-- (void (^)(NSDictionary *))didReceiveRemoteNotificationHandle
+- (void (^)(UIApplication *app, NSDictionary *))didReceiveRemoteNotificationHandle
 {
     return self.privateDidReceiveRemoteNotificationHandle;
 }
 
-- (void)setDidReceiveRemoteNotificationHandle:(void (^)(NSDictionary *))didReceiveRemoteNotificationHandle
+- (void)setDidReceiveRemoteNotificationHandle:(void (^)(UIApplication *app, NSDictionary *))didReceiveRemoteNotificationHandle
 {
     self.privateDidReceiveRemoteNotificationHandle = didReceiveRemoteNotificationHandle;
 }
@@ -146,7 +146,7 @@ BeginIgnoreDeprecatedWarning
                 // 发送通知，进行页面跳转
                 if (self.didReceiveRemoteNotificationHandle)
                 {
-                    self.didReceiveRemoteNotificationHandle(userInfo);
+                    self.didReceiveRemoteNotificationHandle(app, userInfo);
                 }
             });
         }
@@ -169,9 +169,8 @@ BeginIgnoreDeprecatedWarning
 - (void)application:(UIApplication *)app didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
 {
     DLog(@"推送信息 ----%@", userInfo);
-    
-    // 如果 app 在前台，则直接返回
-    if (app.applicationState == UIApplicationStateActive)       return;
+    //    // 如果 app 在前台，则直接返回
+    //    if (app.applicationState == UIApplicationStateActive)       return;
     
     /**  极光推送*/
     [JPUSHService handleRemoteNotification:userInfo];
@@ -180,7 +179,7 @@ BeginIgnoreDeprecatedWarning
     // 发送通知
     if (self.didReceiveRemoteNotificationHandle)
     {
-        self.didReceiveRemoteNotificationHandle(userInfo);
+        self.didReceiveRemoteNotificationHandle(app, userInfo);
     }
 }
 
@@ -189,8 +188,8 @@ BeginIgnoreDeprecatedWarning
     DLog(@"userInfo:   %@", userInfo);
     
     // 取得 APNs 标准信息内容
-    // 如果 app 在前台，则直接返回
-    if (app.applicationState == UIApplicationStateActive)       return;
+    //    // 如果 app 在前台，则直接返回
+    //    if (app.applicationState == UIApplicationStateActive)       return;
     
     // iOS 10 以下 Required
     [JPUSHService handleRemoteNotification:userInfo];
@@ -198,7 +197,7 @@ BeginIgnoreDeprecatedWarning
     // 发送通知
     if (self.didReceiveRemoteNotificationHandle)
     {
-        self.didReceiveRemoteNotificationHandle(userInfo);
+        self.didReceiveRemoteNotificationHandle(app, userInfo);
     }
 }
 
