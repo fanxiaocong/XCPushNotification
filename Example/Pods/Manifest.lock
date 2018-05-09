@@ -3,28 +3,34 @@ PODS:
   - JPush (3.0.7):
     - JCore (~> 1.1.6)
   - XCMacros (1.0.2)
-  - XCPushNotification (1.1.1):
-    - XCPushNotification/JPushNotification (= 1.1.1)
-    - XCPushNotification/XCPushNotification (= 1.1.1)
-  - XCPushNotification/JPushNotification (1.1.1):
+  - XCPushNotification (1.1.2):
+    - XCPushNotification/JPushNotification (= 1.1.2)
+    - XCPushNotification/XCPushNotification (= 1.1.2)
+  - XCPushNotification/JPushNotification (1.1.2):
     - JPush (~> 3.0.6)
     - XCMacros
     - XCPushNotification/XCPushNotification
-  - XCPushNotification/XCPushNotification (1.1.1)
+  - XCPushNotification/XCPushNotification (1.1.2)
 
 DEPENDENCIES:
   - XCPushNotification (from `../`)
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - JCore
+    - JPush
+    - XCMacros
+
 EXTERNAL SOURCES:
   XCPushNotification:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
   JCore: 18fc8725124f26e55625eaf224659b3a999dcf63
   JPush: 111b79b8a0169ab8fd4c486dac3ed166ed69293e
   XCMacros: abf7c03e5128fea2e800887a7b25c82336c3940b
-  XCPushNotification: bd7c807b9840e9f187f69d59f5be321c6dc021f7
+  XCPushNotification: 44b08b1716b8166867971540992a3db6046b9e4e
 
 PODFILE CHECKSUM: c22426b0fd2598655c3927f468e602db1861115f
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.0

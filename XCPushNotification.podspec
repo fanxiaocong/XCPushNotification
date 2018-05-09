@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XCPushNotification'
-  s.version          = '1.1.1'
+  s.version          = '1.1.2'
   s.summary          = 'XCPushNotification封装第三方推送功能，目前已经集成了 JPush 推送'
 
   s.description      = <<-DESC
@@ -27,7 +27,7 @@ XCPushNotification封装第三方推送功能，目前已经集成了 JPush 推�
       jpush.dependency 'XCMacros'
       jpush.dependency 'JPush', '~> 3.0.6'
       jpush.xcconfig = {
-          'VALID_ARCHS' => 'arm64 x86_64'
+          'VALID_ARCHS' => 'armv7 armv7s arm64 x86_64'
       }
   end
 
