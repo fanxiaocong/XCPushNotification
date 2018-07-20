@@ -7,26 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19B99DD5B881D70A35BCA060813CC2AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		2B2EF5A079E99BF33D1D78F755D9B067 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		02E288F64C500C7EE4C2B18754FE4CF0 /* JPushNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = B3ABAE8A36C036F4957CD87762E2440B /* JPushNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F90257F0014B6ED556C80A3FFBCF29B /* XCApplicationHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E76F16B83462D7279B30A1D5BAB458A /* XCApplicationHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E7E2D658D236C5935D953B280060E42 /* Pods-XCPushNotification_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A879201E1F057CA05481A4C7C34164D3 /* Pods-XCPushNotification_Tests-dummy.m */; };
-		411A3C132831336D81DAA21E6E618FF6 /* Pods-XCPushNotification_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F759F735B7974807330AAE092887A2CB /* Pods-XCPushNotification_Example-dummy.m */; };
-		4130506A80AA9BA37BC89FF6F2B7AE0B /* XCPushNotificationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 64F1610E956D83B85717F9B9EB3AE8F1 /* XCPushNotificationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		447441EDDC115EC63D4D64D6EE8A7B5F /* XCPushNotificationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C54FBDFF4FFEB387D3AEF17BFF52D9B /* XCPushNotificationAppDelegate.m */; };
-		458C87577CC971290D03C3A17FB6A925 /* XCPushNotification-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0437283CC7C94C474F38A0C14D39EC8 /* XCPushNotification-dummy.m */; };
-		4BD601C321DF4008D99A24C860549E26 /* JPushNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C9D32B6A3BF336F3ED0184D7EF0221 /* JPushNotification.m */; };
-		55736FBBF006DEC881349F5975FC3D6E /* JPushNotificationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFEC09AA04393E0C9B44A04825BDCFD /* JPushNotificationFactory.m */; };
-		565A066DD126C762DF49F44DBD03ACFD /* XCPushNotification-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27BD4155A94597EC872E93654862418C /* XCPushNotification-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CCD43A16685746391684FF310766570 /* XCPushNotificationAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A696241ADB62586BFA2A40DAB3972E99 /* XCPushNotificationAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E1581E6A4C5CA1EFB8FAC57E95B4E29 /* XCPushNotificationAppDelegateProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A736CA739D2347E090F4D09840825CF2 /* XCPushNotificationAppDelegateProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36EB9194D4BEA7C7919CB38CD0E3C861 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5B167D3710F48D9364E39C3830FE69CE /* XCPushNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F16927DE4EDF19EEB43BD9CB3289E3 /* XCPushNotificationManager.m */; };
+		5B31A1319A9E3509F3AED12F045808B7 /* JPushNotificationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = AF4D9E963A66FF2DACC4218E4F6BE139 /* JPushNotificationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F93CAF4D01AA5B1346B31D7EE5F4D6D /* XCPushNotification-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBBB0A4A3344169A88A3BBDE750CBC2 /* XCPushNotification-dummy.m */; };
+		622451F5BBCCE8F4CCEF55F92770BB16 /* JPushNotificationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CC1F69B1273A17499D3D8CED7AC4ED /* JPushNotificationFactory.m */; };
+		81C33A689B4432F2D384FE9C52850FD2 /* XCApplicationHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20902F927E411EF30126149BDD32CB87 /* XCApplicationHelper-dummy.m */; };
 		895248CF85D6B696DDF1D78E93CEBE55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		919EFCA0E47A803ADA6F200FF0B14A6F /* JPushNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = CFBFACF5B89233DB03A37C652F6B4FC7 /* JPushNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C680969355A461300AE2775CA37BCDB /* JPushNotificationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 507046ACD65FD5C88952F933ECE6AC8D /* JPushNotificationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C929C63F49092E7BA71C6D5EB73A134 /* XCPushNotificationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B05A076825979844E55FC836327D14B2 /* XCPushNotificationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4DD89B80952AA2EA39715E6101E85FF /* Pods-XCPushNotification_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D1AD8EC108BEBA41806F926F63B9BF6 /* Pods-XCPushNotification_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B24FBF390A67D608595D8E10DE56F3EF /* XCPushNotificationFactoryProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 474CEBC534B9EAB52EE2F7D8AE5126EC /* XCPushNotificationFactoryProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C401BCD5C70753255DD7B8FCF1CC668 /* XCApplicationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D424DAF223BE7066B47CD3568114401 /* XCApplicationHelper.m */; };
+		8F5B371922D6A393C628A01C015EF1FA /* Pods-XCPushNotification_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F759F735B7974807330AAE092887A2CB /* Pods-XCPushNotification_Example-dummy.m */; };
+		C14759311A1F84A92D9C013FE4201BF6 /* XCApplicationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E289B5A74FAC08E07E171D9F4F229840 /* XCApplicationHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C448824EAA8077A05E092BD9096C2141 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D3A271EA72E50501234206356EBC2097 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		D789962B486EF21BD9FEE2213ED21F49 /* Pods-XCPushNotification_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 970BAF007941C85D69DAD66419B70607 /* Pods-XCPushNotification_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E30537D3BD7C551F73CF26D746C38699 /* XCPushNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30135B29D6EF4AD0934C987E81BEE6A5 /* XCPushNotificationManager.m */; };
+		DB93A39BF92EEA275DD4EA835E5FC255 /* Pods-XCPushNotification_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D1AD8EC108BEBA41806F926F63B9BF6 /* Pods-XCPushNotification_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC8E0E6F8F4323AEC9DEF41FC63FA5EF /* XCPushNotificationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D349402CF49FA20CA5DCC4E6D5F91244 /* XCPushNotificationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E04EB261E25D22696853612A34291333 /* XCPushNotification-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D03770E2AC88E8B9B967F1C14B17E9A1 /* XCPushNotification-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1ED7F96ECFE6A721B54FC2A9949DAB1 /* XCPushNotificationFactoryProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9847CCE0E5AC8D858433A01D70BA09FB /* XCPushNotificationFactoryProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F54350F1D65E0CC03C1A0CDAB1A822EF /* XCPushNotificationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = CD730D071B0CD84185755CFC8AE2468B /* XCPushNotificationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEFC077D7AAAED801863FE50CAB75D7F /* JPushNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC9DA3B088216D1E238B277C0A35468 /* JPushNotification.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,67 +36,87 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 502870E3B05214E08D950B2F48ED2776;
+			remoteGlobalIDString = A7EFC2930D8A0F48E5BD35F57A1B2F2D;
 			remoteInfo = "Pods-XCPushNotification_Example";
 		};
-		4EA2E46BB39681036E428B53BC6AF144 /* PBXContainerItemProxy */ = {
+		38E012B1DB120D74389DC338810D2ABF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0AAE1AC7EC354C2875F530B5B710030D;
+			remoteGlobalIDString = C454006D514D139B718F4B6D4835AE8B;
 			remoteInfo = XCPushNotification;
+		};
+		8D6C1913AA49FACF7235AFB9B470E25C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52A0E78682B45F95E21AEECC08E2906D;
+			remoteInfo = XCApplicationHelper;
+		};
+		A443998ABBD6608C3960C7B02E5A31F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52A0E78682B45F95E21AEECC08E2906D;
+			remoteInfo = XCApplicationHelper;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01F4C3146B85C6F1B25C712F3E618167 /* Pods-XCPushNotification_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCPushNotification_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0560E79D1A1636F9D49497B64FDE8EEB /* Pods-XCPushNotification_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCPushNotification_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		0C54FBDFF4FFEB387D3AEF17BFF52D9B /* XCPushNotificationAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCPushNotificationAppDelegate.m; path = XCPushNotification/Classes/XCPushNotification/XCPushNotificationAppDelegate.m; sourceTree = "<group>"; };
+		094C629F096F3EC12DD177408B57D2A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0B766CB775522CB48D9D51604B5E65B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		12C18DEA6DE65474A6DE8D7B41C55F16 /* Pods-XCPushNotification_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCPushNotification_Tests-resources.sh"; sourceTree = "<group>"; };
 		12DC471063312B7BB43517556A5F23F5 /* Pods-XCPushNotification_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XCPushNotification_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1618DF49057027FCE5510A48F96D7127 /* libjcore-ios-1.1.6.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-1.1.6.a"; sourceTree = "<group>"; };
 		1632C6C784071750FA6D5DD2A2ADBA81 /* Pods-XCPushNotification_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCPushNotification_Example.release.xcconfig"; sourceTree = "<group>"; };
-		27BD4155A94597EC872E93654862418C /* XCPushNotification-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCPushNotification-umbrella.h"; sourceTree = "<group>"; };
+		1D35C7E4DD8C25978B1B6070B8F08007 /* XCPushNotification.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XCPushNotification.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1D830A8A6303001C8E9E742BDF8F0502 /* Pods_XCPushNotification_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XCPushNotification_Tests.framework; path = "Pods-XCPushNotification_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20902F927E411EF30126149BDD32CB87 /* XCApplicationHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XCApplicationHelper-dummy.m"; sourceTree = "<group>"; };
+		23D27D670AC199E14AAA3F0EFCE4B1AA /* XCMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCMacros.h; path = XCMacros/XCMacros.h; sourceTree = "<group>"; };
 		2D1AD8EC108BEBA41806F926F63B9BF6 /* Pods-XCPushNotification_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XCPushNotification_Example-umbrella.h"; sourceTree = "<group>"; };
-		30135B29D6EF4AD0934C987E81BEE6A5 /* XCPushNotificationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCPushNotificationManager.m; path = XCPushNotification/Classes/XCPushNotification/XCPushNotificationManager.m; sourceTree = "<group>"; };
-		4256AFBBD968479A188E728AD8A88464 /* XCPushNotification.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XCPushNotification.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		461A79FCEB17D221EA43CD97E1E6F1AF /* Pods_XCPushNotification_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XCPushNotification_Tests.framework; path = "Pods-XCPushNotification_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		474CEBC534B9EAB52EE2F7D8AE5126EC /* XCPushNotificationFactoryProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCPushNotificationFactoryProtocol.h; sourceTree = "<group>"; };
+		30DE14E6C0FF37DA46426C95671C84F9 /* XCPushNotification-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCPushNotification-prefix.pch"; sourceTree = "<group>"; };
 		4C9D1BC63F6D25155036332DB45B44A9 /* Pods-XCPushNotification_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XCPushNotification_Tests.modulemap"; sourceTree = "<group>"; };
-		507046ACD65FD5C88952F933ECE6AC8D /* JPushNotificationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPushNotificationFactory.h; path = XCPushNotification/Classes/JPushNotification/JPushNotificationFactory.h; sourceTree = "<group>"; };
 		520E475643584E58A62DEA351C0BDFDE /* Pods-XCPushNotification_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCPushNotification_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		54EC31587CF3519C6BEE265E4286192F /* Pods-XCPushNotification_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCPushNotification_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		565E7B919DCF5CF849C7F0353404E718 /* XCPushNotification.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XCPushNotification.modulemap; sourceTree = "<group>"; };
 		572DAE7D0977A02425F264DEE4372C52 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		578B80DEEB5E77835DE4C268D53E1039 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6105C5F3E57B7F69E51BBD6645F54421 /* Pods_XCPushNotification_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XCPushNotification_Example.framework; path = "Pods-XCPushNotification_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		64F1610E956D83B85717F9B9EB3AE8F1 /* XCPushNotificationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCPushNotificationProtocol.h; sourceTree = "<group>"; };
+		5CE71A588910F4C2A31DEDF0B29FB4D2 /* libjcore-ios-1.1.6.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjcore-ios-1.1.6.a"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		68C9D32B6A3BF336F3ED0184D7EF0221 /* JPushNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPushNotification.m; path = XCPushNotification/Classes/JPushNotification/JPushNotification.m; sourceTree = "<group>"; };
-		6A6F80CCB01CF47298A2FBC1073E6A76 /* XCPushNotification-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCPushNotification-prefix.pch"; sourceTree = "<group>"; };
-		6B1D8122E1CFA2623B466DC300593458 /* JPUSHService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
-		732ADBB8D1406FF37C7703A4FA415146 /* XCMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCMacros.h; path = XCMacros/XCMacros.h; sourceTree = "<group>"; };
-		76ECDF84538C4F14D7EBDA8D79170257 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		7CFEC09AA04393E0C9B44A04825BDCFD /* JPushNotificationFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPushNotificationFactory.m; path = XCPushNotification/Classes/JPushNotification/JPushNotificationFactory.m; sourceTree = "<group>"; };
+		69621B008103C07C5EA671F738111566 /* XCPushNotification.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XCPushNotification.modulemap; sourceTree = "<group>"; };
+		6BA3A94924D235FE2F8F439D6F34DEB3 /* XCApplicationHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XCApplicationHelper.framework; path = XCApplicationHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72824C0E17CF293260D931ACAE76DBD1 /* XCApplicationHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCApplicationHelper-prefix.pch"; sourceTree = "<group>"; };
+		7D424DAF223BE7066B47CD3568114401 /* XCApplicationHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCApplicationHelper.m; path = XCApplicationHelper/XCApplicationHelper.m; sourceTree = "<group>"; };
 		86C9AB0EF37ED98CDBF8025185D359B0 /* Pods-XCPushNotification_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCPushNotification_Example-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		970BAF007941C85D69DAD66419B70607 /* Pods-XCPushNotification_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XCPushNotification_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A696241ADB62586BFA2A40DAB3972E99 /* XCPushNotificationAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCPushNotificationAppDelegate.h; path = XCPushNotification/Classes/XCPushNotification/XCPushNotificationAppDelegate.h; sourceTree = "<group>"; };
-		A736CA739D2347E090F4D09840825CF2 /* XCPushNotificationAppDelegateProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCPushNotificationAppDelegateProtocol.h; sourceTree = "<group>"; };
+		9847CCE0E5AC8D858433A01D70BA09FB /* XCPushNotificationFactoryProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCPushNotificationFactoryProtocol.h; sourceTree = "<group>"; };
+		9E76F16B83462D7279B30A1D5BAB458A /* XCApplicationHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCApplicationHelper-umbrella.h"; sourceTree = "<group>"; };
 		A879201E1F057CA05481A4C7C34164D3 /* Pods-XCPushNotification_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XCPushNotification_Tests-dummy.m"; sourceTree = "<group>"; };
-		B05A076825979844E55FC836327D14B2 /* XCPushNotificationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCPushNotificationManager.h; path = XCPushNotification/Classes/XCPushNotification/XCPushNotificationManager.h; sourceTree = "<group>"; };
+		AF4D9E963A66FF2DACC4218E4F6BE139 /* JPushNotificationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPushNotificationFactory.h; path = XCPushNotification/Classes/JPushNotification/JPushNotificationFactory.h; sourceTree = "<group>"; };
 		B1E2FA04A351522A05CA2290F8149F36 /* Pods-XCPushNotification_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCPushNotification_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B8A290F54773309DE43520E4EA7BB97C /* libjpush-ios-3.0.7.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjpush-ios-3.0.7.a"; sourceTree = "<group>"; };
-		BEBD55558E34689FE91146F8014E01C3 /* XCPushNotification.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCPushNotification.xcconfig; sourceTree = "<group>"; };
+		B2422DD49439CE1920CCC42FE8B17E12 /* XCPushNotification.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCPushNotification.xcconfig; sourceTree = "<group>"; };
+		B3ABAE8A36C036F4957CD87762E2440B /* JPushNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPushNotification.h; path = XCPushNotification/Classes/JPushNotification/JPushNotification.h; sourceTree = "<group>"; };
+		C6A4081A50D2EDDC07F609B559F0955F /* XCApplicationHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XCApplicationHelper.modulemap; sourceTree = "<group>"; };
 		C75677D27E659634E5AE66C1013CFA77 /* Pods-XCPushNotification_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XCPushNotification_Example.modulemap"; sourceTree = "<group>"; };
-		CD961BE504A1B38496B13E10FC9C7F2D /* XCPushNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XCPushNotification.framework; path = XCPushNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEABD7D25A3AEA9001C5EB8E49D0035F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		CFBFACF5B89233DB03A37C652F6B4FC7 /* JPushNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPushNotification.h; path = XCPushNotification/Classes/JPushNotification/JPushNotification.h; sourceTree = "<group>"; };
-		E0437283CC7C94C474F38A0C14D39EC8 /* XCPushNotification-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XCPushNotification-dummy.m"; sourceTree = "<group>"; };
+		C852DBB194312406113315CCAB7F311A /* libjpush-ios-3.0.7.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = "libjpush-ios-3.0.7.a"; sourceTree = "<group>"; };
+		CB69461F1FF5B2009B5CEFE3BD44D886 /* XCPushNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XCPushNotification.framework; path = XCPushNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD730D071B0CD84185755CFC8AE2468B /* XCPushNotificationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XCPushNotificationProtocol.h; sourceTree = "<group>"; };
+		CDBBB0A4A3344169A88A3BBDE750CBC2 /* XCPushNotification-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XCPushNotification-dummy.m"; sourceTree = "<group>"; };
+		D03770E2AC88E8B9B967F1C14B17E9A1 /* XCPushNotification-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCPushNotification-umbrella.h"; sourceTree = "<group>"; };
+		D2F16927DE4EDF19EEB43BD9CB3289E3 /* XCPushNotificationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCPushNotificationManager.m; path = XCPushNotification/Classes/XCPushNotification/XCPushNotificationManager.m; sourceTree = "<group>"; };
+		D349402CF49FA20CA5DCC4E6D5F91244 /* XCPushNotificationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCPushNotificationManager.h; path = XCPushNotification/Classes/XCPushNotification/XCPushNotificationManager.h; sourceTree = "<group>"; };
+		D3A46C8A2B1F35C01569F8BFAE302AA6 /* XCApplicationHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCApplicationHelper.xcconfig; sourceTree = "<group>"; };
+		DDE1EED2A05DC5A091AB480036BB68B1 /* Pods_XCPushNotification_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XCPushNotification_Example.framework; path = "Pods-XCPushNotification_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDFB34EAC03B0CBFCADE5147AE1A93F /* JPUSHService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		E289B5A74FAC08E07E171D9F4F229840 /* XCApplicationHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCApplicationHelper.h; path = XCApplicationHelper/XCApplicationHelper.h; sourceTree = "<group>"; };
 		E687B9FF6138B4CE4FCF8E96F80593C0 /* Pods-XCPushNotification_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XCPushNotification_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EC41EF1BFB5E7EAC4239D3E7379FACE4 /* Pods-XCPushNotification_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCPushNotification_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		ED515720FD28621EC28C3727C6DA6C44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F759F735B7974807330AAE092887A2CB /* Pods-XCPushNotification_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XCPushNotification_Example-dummy.m"; sourceTree = "<group>"; };
 		F92141C5E7392CAB82C938F3C661DD2D /* Pods-XCPushNotification_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCPushNotification_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F9CC1F69B1273A17499D3D8CED7AC4ED /* JPushNotificationFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPushNotificationFactory.m; path = XCPushNotification/Classes/JPushNotification/JPushNotificationFactory.m; sourceTree = "<group>"; };
+		FAC9DA3B088216D1E238B277C0A35468 /* JPushNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPushNotification.m; path = XCPushNotification/Classes/JPushNotification/JPushNotification.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,19 +128,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		718477C3DF52B13F8DE2FC604FF186A3 /* Frameworks */ = {
+		8E00892B1092127475D51BBC76DE3826 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B2EF5A079E99BF33D1D78F755D9B067 /* Foundation.framework in Frameworks */,
+				C448824EAA8077A05E092BD9096C2141 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0F14C64CDFB69A0CC05023455D0B54C /* Frameworks */ = {
+		CFF8D7BE291207CAD7EC00F87DA88A42 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19B99DD5B881D70A35BCA060813CC2AE /* Foundation.framework in Frameworks */,
+				D3A271EA72E50501234206356EBC2097 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9417DE08FAA95BE24C967F0A9785753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36EB9194D4BEA7C7919CB38CD0E3C861 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,19 +158,9 @@
 		01B15A26A5C35A3765E8AFEF33720131 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EADB580774C0EF44C6909BBB1EE3863A /* XCPushNotification */,
+				8F5C763B8A2C147E64978C82F40E1161 /* XCPushNotification */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		1E75291CB780957F39ECB6FE4DC48717 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6105C5F3E57B7F69E51BBD6645F54421 /* Pods_XCPushNotification_Example.framework */,
-				461A79FCEB17D221EA43CD97E1E6F1AF /* Pods_XCPushNotification_Tests.framework */,
-				CD961BE504A1B38496B13E10FC9C7F2D /* XCPushNotification.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		25907E7FE282A5EB50B0F84FD15F7316 /* Pods-XCPushNotification_Tests */ = {
@@ -161,32 +181,93 @@
 			path = "Target Support Files/Pods-XCPushNotification_Tests";
 			sourceTree = "<group>";
 		};
-		2F01EF26442C35DFFAFF4120A8E30793 /* XCPushNotificationProtocol */ = {
+		295E9A4D95768F049B941CBBC162DFD6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A736CA739D2347E090F4D09840825CF2 /* XCPushNotificationAppDelegateProtocol.h */,
-				474CEBC534B9EAB52EE2F7D8AE5126EC /* XCPushNotificationFactoryProtocol.h */,
-				64F1610E956D83B85717F9B9EB3AE8F1 /* XCPushNotificationProtocol.h */,
-			);
-			name = XCPushNotificationProtocol;
-			path = XCPushNotification/Classes/XCPushNotification/XCPushNotificationProtocol;
-			sourceTree = "<group>";
-		};
-		670850FF9501AF2AB917C493B04B7B99 /* JCore */ = {
-			isa = PBXGroup;
-			children = (
-				6E0EF9A266A484671D50421757F48876 /* Frameworks */,
-			);
-			name = JCore;
-			path = JCore;
-			sourceTree = "<group>";
-		};
-		6E0EF9A266A484671D50421757F48876 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1618DF49057027FCE5510A48F96D7127 /* libjcore-ios-1.1.6.a */,
+				C852DBB194312406113315CCAB7F311A /* libjpush-ios-3.0.7.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3479971500FDAA8C6E1C7A5A652BF905 /* XCPushNotification */ = {
+			isa = PBXGroup;
+			children = (
+				D349402CF49FA20CA5DCC4E6D5F91244 /* XCPushNotificationManager.h */,
+				D2F16927DE4EDF19EEB43BD9CB3289E3 /* XCPushNotificationManager.m */,
+				CD68D730616B02D4D15C5C5EA7E6A288 /* XCPushNotificationProtocol */,
+			);
+			name = XCPushNotification;
+			sourceTree = "<group>";
+		};
+		3E1B3545D2A2C8DE6D96F947DD57CE3D /* XCApplicationHelper */ = {
+			isa = PBXGroup;
+			children = (
+				E289B5A74FAC08E07E171D9F4F229840 /* XCApplicationHelper.h */,
+				7D424DAF223BE7066B47CD3568114401 /* XCApplicationHelper.m */,
+				679DE1F280BC968E496B813F3CD58822 /* Support Files */,
+			);
+			name = XCApplicationHelper;
+			path = XCApplicationHelper;
+			sourceTree = "<group>";
+		};
+		4A698202C4F8909C8961FA2F55F2116C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				69621B008103C07C5EA671F738111566 /* XCPushNotification.modulemap */,
+				B2422DD49439CE1920CCC42FE8B17E12 /* XCPushNotification.xcconfig */,
+				CDBBB0A4A3344169A88A3BBDE750CBC2 /* XCPushNotification-dummy.m */,
+				30DE14E6C0FF37DA46426C95671C84F9 /* XCPushNotification-prefix.pch */,
+				D03770E2AC88E8B9B967F1C14B17E9A1 /* XCPushNotification-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XCPushNotification";
+			sourceTree = "<group>";
+		};
+		4DBC7753E1E6D2F3400A9C1E48147999 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDE1EED2A05DC5A091AB480036BB68B1 /* Pods_XCPushNotification_Example.framework */,
+				1D830A8A6303001C8E9E742BDF8F0502 /* Pods_XCPushNotification_Tests.framework */,
+				6BA3A94924D235FE2F8F439D6F34DEB3 /* XCApplicationHelper.framework */,
+				CB69461F1FF5B2009B5CEFE3BD44D886 /* XCPushNotification.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		555A8EAD2AB03F7D8BB083DAA370E164 /* JPushNotification */ = {
+			isa = PBXGroup;
+			children = (
+				B3ABAE8A36C036F4957CD87762E2440B /* JPushNotification.h */,
+				FAC9DA3B088216D1E238B277C0A35468 /* JPushNotification.m */,
+				AF4D9E963A66FF2DACC4218E4F6BE139 /* JPushNotificationFactory.h */,
+				F9CC1F69B1273A17499D3D8CED7AC4ED /* JPushNotificationFactory.m */,
+			);
+			name = JPushNotification;
+			sourceTree = "<group>";
+		};
+		679DE1F280BC968E496B813F3CD58822 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED515720FD28621EC28C3727C6DA6C44 /* Info.plist */,
+				C6A4081A50D2EDDC07F609B559F0955F /* XCApplicationHelper.modulemap */,
+				D3A46C8A2B1F35C01569F8BFAE302AA6 /* XCApplicationHelper.xcconfig */,
+				20902F927E411EF30126149BDD32CB87 /* XCApplicationHelper-dummy.m */,
+				72824C0E17CF293260D931ACAE76DBD1 /* XCApplicationHelper-prefix.pch */,
+				9E76F16B83462D7279B30A1D5BAB458A /* XCApplicationHelper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XCApplicationHelper";
+			sourceTree = "<group>";
+		};
+		7CF11758F588AC9C6C4D1CC9A7D860C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC51CA704EDB96C4A6F9CB1F721E72A3 /* JCore */,
+				8CFD2EB6FAB43E599B10A30EF6C02067 /* JPush */,
+				3E1B3545D2A2C8DE6D96F947DD57CE3D /* XCApplicationHelper */,
+				D5C71773B140A28B6FB3519809FAA5C3 /* XCMacros */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -195,10 +276,40 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				01B15A26A5C35A3765E8AFEF33720131 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				F46EFA4D3FA689CC0026752029C1B426 /* Pods */,
-				1E75291CB780957F39ECB6FE4DC48717 /* Products */,
+				7CF11758F588AC9C6C4D1CC9A7D860C7 /* Pods */,
+				4DBC7753E1E6D2F3400A9C1E48147999 /* Products */,
 				E8FB12C86679262391AB5C24F0798F00 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8CFD2EB6FAB43E599B10A30EF6C02067 /* JPush */ = {
+			isa = PBXGroup;
+			children = (
+				DEDFB34EAC03B0CBFCADE5147AE1A93F /* JPUSHService.h */,
+				295E9A4D95768F049B941CBBC162DFD6 /* Frameworks */,
+			);
+			name = JPush;
+			path = JPush;
+			sourceTree = "<group>";
+		};
+		8F5C763B8A2C147E64978C82F40E1161 /* XCPushNotification */ = {
+			isa = PBXGroup;
+			children = (
+				555A8EAD2AB03F7D8BB083DAA370E164 /* JPushNotification */,
+				A21BE7AB90CAA30D48437AC95981A6F0 /* Pod */,
+				4A698202C4F8909C8961FA2F55F2116C /* Support Files */,
+				3479971500FDAA8C6E1C7A5A652BF905 /* XCPushNotification */,
+			);
+			name = XCPushNotification;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9E2A152538D2CFB5F60F3F105B658113 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CE71A588910F4C2A31DEDF0B29FB4D2 /* libjcore-ios-1.1.6.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		A15E0625E513A65150839A4D78D5074B /* Pods-XCPushNotification_Example */ = {
@@ -219,47 +330,14 @@
 			path = "Target Support Files/Pods-XCPushNotification_Example";
 			sourceTree = "<group>";
 		};
-		A490885D27F27FCEE882386E23703272 /* Support Files */ = {
+		A21BE7AB90CAA30D48437AC95981A6F0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				565E7B919DCF5CF849C7F0353404E718 /* XCPushNotification.modulemap */,
-				BEBD55558E34689FE91146F8014E01C3 /* XCPushNotification.xcconfig */,
-				E0437283CC7C94C474F38A0C14D39EC8 /* XCPushNotification-dummy.m */,
-				6A6F80CCB01CF47298A2FBC1073E6A76 /* XCPushNotification-prefix.pch */,
-				27BD4155A94597EC872E93654862418C /* XCPushNotification-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XCPushNotification";
-			sourceTree = "<group>";
-		};
-		B480D4C2D980FFB97DD7D59488FAC98B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B8A290F54773309DE43520E4EA7BB97C /* libjpush-ios-3.0.7.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B523B47A252418280AB28599C75F82D5 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				76ECDF84538C4F14D7EBDA8D79170257 /* LICENSE */,
-				CEABD7D25A3AEA9001C5EB8E49D0035F /* README.md */,
-				4256AFBBD968479A188E728AD8A88464 /* XCPushNotification.podspec */,
+				0B766CB775522CB48D9D51604B5E65B8 /* LICENSE */,
+				094C629F096F3EC12DD177408B57D2A8 /* README.md */,
+				1D35C7E4DD8C25978B1B6070B8F08007 /* XCPushNotification.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		B9D7FAB2B4E227E0AE0B9EE0793246CB /* XCPushNotification */ = {
-			isa = PBXGroup;
-			children = (
-				A696241ADB62586BFA2A40DAB3972E99 /* XCPushNotificationAppDelegate.h */,
-				0C54FBDFF4FFEB387D3AEF17BFF52D9B /* XCPushNotificationAppDelegate.m */,
-				B05A076825979844E55FC836327D14B2 /* XCPushNotificationManager.h */,
-				30135B29D6EF4AD0934C987E81BEE6A5 /* XCPushNotificationManager.m */,
-				2F01EF26442C35DFFAFF4120A8E30793 /* XCPushNotificationProtocol */,
-			);
-			name = XCPushNotification;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -270,12 +348,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CD68D730616B02D4D15C5C5EA7E6A288 /* XCPushNotificationProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				9847CCE0E5AC8D858433A01D70BA09FB /* XCPushNotificationFactoryProtocol.h */,
+				CD730D071B0CD84185755CFC8AE2468B /* XCPushNotificationProtocol.h */,
+			);
+			name = XCPushNotificationProtocol;
+			path = XCPushNotification/Classes/XCPushNotification/XCPushNotificationProtocol;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		D5C71773B140A28B6FB3519809FAA5C3 /* XCMacros */ = {
+			isa = PBXGroup;
+			children = (
+				23D27D670AC199E14AAA3F0EFCE4B1AA /* XCMacros.h */,
+			);
+			name = XCMacros;
+			path = XCMacros;
+			sourceTree = "<group>";
+		};
+		DC51CA704EDB96C4A6F9CB1F721E72A3 /* JCore */ = {
+			isa = PBXGroup;
+			children = (
+				9E2A152538D2CFB5F60F3F105B658113 /* Frameworks */,
+			);
+			name = JCore;
+			path = JCore;
 			sourceTree = "<group>";
 		};
 		E8FB12C86679262391AB5C24F0798F00 /* Targets Support Files */ = {
@@ -287,61 +393,39 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		EADB580774C0EF44C6909BBB1EE3863A /* XCPushNotification */ = {
-			isa = PBXGroup;
-			children = (
-				EE741DC051D6F48B6D9DE72A75635710 /* JPushNotification */,
-				B523B47A252418280AB28599C75F82D5 /* Pod */,
-				A490885D27F27FCEE882386E23703272 /* Support Files */,
-				B9D7FAB2B4E227E0AE0B9EE0793246CB /* XCPushNotification */,
-			);
-			name = XCPushNotification;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		EE741DC051D6F48B6D9DE72A75635710 /* JPushNotification */ = {
-			isa = PBXGroup;
-			children = (
-				CFBFACF5B89233DB03A37C652F6B4FC7 /* JPushNotification.h */,
-				68C9D32B6A3BF336F3ED0184D7EF0221 /* JPushNotification.m */,
-				507046ACD65FD5C88952F933ECE6AC8D /* JPushNotificationFactory.h */,
-				7CFEC09AA04393E0C9B44A04825BDCFD /* JPushNotificationFactory.m */,
-			);
-			name = JPushNotification;
-			sourceTree = "<group>";
-		};
-		F0496FA9F586BBF00516F50E6A546E3D /* JPush */ = {
-			isa = PBXGroup;
-			children = (
-				6B1D8122E1CFA2623B466DC300593458 /* JPUSHService.h */,
-				B480D4C2D980FFB97DD7D59488FAC98B /* Frameworks */,
-			);
-			name = JPush;
-			path = JPush;
-			sourceTree = "<group>";
-		};
-		F46EFA4D3FA689CC0026752029C1B426 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				670850FF9501AF2AB917C493B04B7B99 /* JCore */,
-				F0496FA9F586BBF00516F50E6A546E3D /* JPush */,
-				F69DD2AC32F50978CAD2E53AA03654EA /* XCMacros */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		F69DD2AC32F50978CAD2E53AA03654EA /* XCMacros */ = {
-			isa = PBXGroup;
-			children = (
-				732ADBB8D1406FF37C7703A4FA415146 /* XCMacros.h */,
-			);
-			name = XCMacros;
-			path = XCMacros;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0F0742464F90818FC7650D4A3E6D9B63 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB93A39BF92EEA275DD4EA835E5FC255 /* Pods-XCPushNotification_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD3E118ECC1A093B2505FEBFE1C8A9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E288F64C500C7EE4C2B18754FE4CF0 /* JPushNotification.h in Headers */,
+				5B31A1319A9E3509F3AED12F045808B7 /* JPushNotificationFactory.h in Headers */,
+				E04EB261E25D22696853612A34291333 /* XCPushNotification-umbrella.h in Headers */,
+				E1ED7F96ECFE6A721B54FC2A9949DAB1 /* XCPushNotificationFactoryProtocol.h in Headers */,
+				DC8E0E6F8F4323AEC9DEF41FC63FA5EF /* XCPushNotificationManager.h in Headers */,
+				F54350F1D65E0CC03C1A0CDAB1A822EF /* XCPushNotificationProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F51497E580E7E9F157BFBD26442D85 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F90257F0014B6ED556C80A3FFBCF29B /* XCApplicationHelper-umbrella.h in Headers */,
+				C14759311A1F84A92D9C013FE4201BF6 /* XCApplicationHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65F8AC7844466006F5B8AECF91CF8523 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,49 +434,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF6D0E74B6813D4E5948AFD878DF0BA1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				919EFCA0E47A803ADA6F200FF0B14A6F /* JPushNotification.h in Headers */,
-				9C680969355A461300AE2775CA37BCDB /* JPushNotificationFactory.h in Headers */,
-				565A066DD126C762DF49F44DBD03ACFD /* XCPushNotification-umbrella.h in Headers */,
-				5CCD43A16685746391684FF310766570 /* XCPushNotificationAppDelegate.h in Headers */,
-				7E1581E6A4C5CA1EFB8FAC57E95B4E29 /* XCPushNotificationAppDelegateProtocol.h in Headers */,
-				B24FBF390A67D608595D8E10DE56F3EF /* XCPushNotificationFactoryProtocol.h in Headers */,
-				9C929C63F49092E7BA71C6D5EB73A134 /* XCPushNotificationManager.h in Headers */,
-				4130506A80AA9BA37BC89FF6F2B7AE0B /* XCPushNotificationProtocol.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F688039C4DDB6F8EF5B99871CB80F5EE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A4DD89B80952AA2EA39715E6101E85FF /* Pods-XCPushNotification_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0AAE1AC7EC354C2875F530B5B710030D /* XCPushNotification */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 579C015555374C1339AE392C748A61F0 /* Build configuration list for PBXNativeTarget "XCPushNotification" */;
-			buildPhases = (
-				223CFF490D80D57989FA2013C88FDE59 /* Sources */,
-				718477C3DF52B13F8DE2FC604FF186A3 /* Frameworks */,
-				AF6D0E74B6813D4E5948AFD878DF0BA1 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = XCPushNotification;
-			productName = XCPushNotification;
-			productReference = CD961BE504A1B38496B13E10FC9C7F2D /* XCPushNotification.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		1B633DD332981E14C06265CC18AF9D6B /* Pods-XCPushNotification_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DCDF115D3EA1740ABC872558206AE25 /* Build configuration list for PBXNativeTarget "Pods-XCPushNotification_Tests" */;
@@ -408,25 +452,61 @@
 			);
 			name = "Pods-XCPushNotification_Tests";
 			productName = "Pods-XCPushNotification_Tests";
-			productReference = 461A79FCEB17D221EA43CD97E1E6F1AF /* Pods_XCPushNotification_Tests.framework */;
+			productReference = 1D830A8A6303001C8E9E742BDF8F0502 /* Pods_XCPushNotification_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		502870E3B05214E08D950B2F48ED2776 /* Pods-XCPushNotification_Example */ = {
+		52A0E78682B45F95E21AEECC08E2906D /* XCApplicationHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2E1A1078BF8143C576E49748C0F3489 /* Build configuration list for PBXNativeTarget "Pods-XCPushNotification_Example" */;
+			buildConfigurationList = 53E2C1FF277B155F0B83FC80E8DF416B /* Build configuration list for PBXNativeTarget "XCApplicationHelper" */;
 			buildPhases = (
-				655A4A6BE8C48F983F966C8184980C6A /* Sources */,
-				A0F14C64CDFB69A0CC05023455D0B54C /* Frameworks */,
-				F688039C4DDB6F8EF5B99871CB80F5EE /* Headers */,
+				6256AC92E1B60A75BB4C14D96B781414 /* Sources */,
+				D9417DE08FAA95BE24C967F0A9785753 /* Frameworks */,
+				59F51497E580E7E9F157BFBD26442D85 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3E334DAA3EC22494E8E349207660D06A /* PBXTargetDependency */,
+			);
+			name = XCApplicationHelper;
+			productName = XCApplicationHelper;
+			productReference = 6BA3A94924D235FE2F8F439D6F34DEB3 /* XCApplicationHelper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7EFC2930D8A0F48E5BD35F57A1B2F2D /* Pods-XCPushNotification_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4F1DC3A03B5E8AB185523756D2703D /* Build configuration list for PBXNativeTarget "Pods-XCPushNotification_Example" */;
+			buildPhases = (
+				0354746F95B84DB214EA29B214979CC8 /* Sources */,
+				CFF8D7BE291207CAD7EC00F87DA88A42 /* Frameworks */,
+				0F0742464F90818FC7650D4A3E6D9B63 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC85FB3780BA5F9792C38FBA4DB99D17 /* PBXTargetDependency */,
+				0BE8BAD3448FD275A5191E9D874AB4E6 /* PBXTargetDependency */,
 			);
 			name = "Pods-XCPushNotification_Example";
 			productName = "Pods-XCPushNotification_Example";
-			productReference = 6105C5F3E57B7F69E51BBD6645F54421 /* Pods_XCPushNotification_Example.framework */;
+			productReference = DDE1EED2A05DC5A091AB480036BB68B1 /* Pods_XCPushNotification_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C454006D514D139B718F4B6D4835AE8B /* XCPushNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31BC73D6F5DEC13B73DEB484C88B3D6C /* Build configuration list for PBXNativeTarget "XCPushNotification" */;
+			buildPhases = (
+				586E21DDAD924988DC5AD32486C2E543 /* Sources */,
+				8E00892B1092127475D51BBC76DE3826 /* Frameworks */,
+				2BD3E118ECC1A093B2505FEBFE1C8A9B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD02D28E5913B0F5FB0324FB29D985B9 /* PBXTargetDependency */,
+			);
+			name = XCPushNotification;
+			productName = XCPushNotification;
+			productReference = CB69461F1FF5B2009B5CEFE3BD44D886 /* XCPushNotification.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -446,35 +526,44 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 1E75291CB780957F39ECB6FE4DC48717 /* Products */;
+			productRefGroup = 4DBC7753E1E6D2F3400A9C1E48147999 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				502870E3B05214E08D950B2F48ED2776 /* Pods-XCPushNotification_Example */,
+				A7EFC2930D8A0F48E5BD35F57A1B2F2D /* Pods-XCPushNotification_Example */,
 				1B633DD332981E14C06265CC18AF9D6B /* Pods-XCPushNotification_Tests */,
-				0AAE1AC7EC354C2875F530B5B710030D /* XCPushNotification */,
+				52A0E78682B45F95E21AEECC08E2906D /* XCApplicationHelper */,
+				C454006D514D139B718F4B6D4835AE8B /* XCPushNotification */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		223CFF490D80D57989FA2013C88FDE59 /* Sources */ = {
+		0354746F95B84DB214EA29B214979CC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BD601C321DF4008D99A24C860549E26 /* JPushNotification.m in Sources */,
-				55736FBBF006DEC881349F5975FC3D6E /* JPushNotificationFactory.m in Sources */,
-				458C87577CC971290D03C3A17FB6A925 /* XCPushNotification-dummy.m in Sources */,
-				447441EDDC115EC63D4D64D6EE8A7B5F /* XCPushNotificationAppDelegate.m in Sources */,
-				E30537D3BD7C551F73CF26D746C38699 /* XCPushNotificationManager.m in Sources */,
+				8F5B371922D6A393C628A01C015EF1FA /* Pods-XCPushNotification_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		655A4A6BE8C48F983F966C8184980C6A /* Sources */ = {
+		586E21DDAD924988DC5AD32486C2E543 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				411A3C132831336D81DAA21E6E618FF6 /* Pods-XCPushNotification_Example-dummy.m in Sources */,
+				FEFC077D7AAAED801863FE50CAB75D7F /* JPushNotification.m in Sources */,
+				622451F5BBCCE8F4CCEF55F92770BB16 /* JPushNotificationFactory.m in Sources */,
+				5F93CAF4D01AA5B1346B31D7EE5F4D6D /* XCPushNotification-dummy.m in Sources */,
+				5B167D3710F48D9364E39C3830FE69CE /* XCPushNotificationManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6256AC92E1B60A75BB4C14D96B781414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C33A689B4432F2D384FE9C52850FD2 /* XCApplicationHelper-dummy.m in Sources */,
+				8C401BCD5C70753255DD7B8FCF1CC668 /* XCApplicationHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,117 +578,34 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3E334DAA3EC22494E8E349207660D06A /* PBXTargetDependency */ = {
+		0BE8BAD3448FD275A5191E9D874AB4E6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XCPushNotification;
-			target = 0AAE1AC7EC354C2875F530B5B710030D /* XCPushNotification */;
-			targetProxy = 4EA2E46BB39681036E428B53BC6AF144 /* PBXContainerItemProxy */;
+			target = C454006D514D139B718F4B6D4835AE8B /* XCPushNotification */;
+			targetProxy = 38E012B1DB120D74389DC338810D2ABF /* PBXContainerItemProxy */;
+		};
+		DC85FB3780BA5F9792C38FBA4DB99D17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XCApplicationHelper;
+			target = 52A0E78682B45F95E21AEECC08E2906D /* XCApplicationHelper */;
+			targetProxy = A443998ABBD6608C3960C7B02E5A31F0 /* PBXContainerItemProxy */;
+		};
+		DD02D28E5913B0F5FB0324FB29D985B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XCApplicationHelper;
+			target = 52A0E78682B45F95E21AEECC08E2906D /* XCApplicationHelper */;
+			targetProxy = 8D6C1913AA49FACF7235AFB9B470E25C /* PBXContainerItemProxy */;
 		};
 		FE4BDFCDF0FDA913E911552BA0349378 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-XCPushNotification_Example";
-			target = 502870E3B05214E08D950B2F48ED2776 /* Pods-XCPushNotification_Example */;
+			target = A7EFC2930D8A0F48E5BD35F57A1B2F2D /* Pods-XCPushNotification_Example */;
 			targetProxy = 1397154EDE74FE1423E799AB703CCF73 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0262125C5417435905323E46E172646D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEBD55558E34689FE91146F8014E01C3 /* XCPushNotification.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XCPushNotification/XCPushNotification-prefix.pch";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/XCPushNotification/XCPushNotification.modulemap";
-				PRODUCT_MODULE_NAME = XCPushNotification;
-				PRODUCT_NAME = XCPushNotification;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5E0DF32924094F85A3C0A22AF677DFAB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEBD55558E34689FE91146F8014E01C3 /* XCPushNotification.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XCPushNotification/XCPushNotification-prefix.pch";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/XCPushNotification/XCPushNotification.modulemap";
-				PRODUCT_MODULE_NAME = XCPushNotification;
-				PRODUCT_NAME = XCPushNotification;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		71E47DBC59756A029B3BF9BAB8761855 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1632C6C784071750FA6D5DD2A2ADBA81 /* Pods-XCPushNotification_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XCPushNotification_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XCPushNotification_Example/Pods-XCPushNotification_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		76DF1CFDEA258E91EC1B87CB40B435B5 /* Debug */ = {
+		3796FB38385F6D82EDAFE55ABFEB64CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 01F4C3146B85C6F1B25C712F3E618167 /* Pods-XCPushNotification_Example.debug.xcconfig */;
 			buildSettings = {
@@ -631,6 +637,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		7572019B467B4FFB15677DE76D5A0212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2422DD49439CE1920CCC42FE8B17E12 /* XCPushNotification.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XCPushNotification/XCPushNotification-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/XCPushNotification/XCPushNotification.modulemap";
+				PRODUCT_MODULE_NAME = XCPushNotification;
+				PRODUCT_NAME = XCPushNotification;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -729,6 +766,67 @@
 			};
 			name = Release;
 		};
+		982F3558637A608E7D3D074527F84ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2422DD49439CE1920CCC42FE8B17E12 /* XCPushNotification.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XCPushNotification/XCPushNotification-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/XCPushNotification/XCPushNotification.modulemap";
+				PRODUCT_MODULE_NAME = XCPushNotification;
+				PRODUCT_NAME = XCPushNotification;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9EAC855335EDBE9281AB00B303D28F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3A46C8A2B1F35C01569F8BFAE302AA6 /* XCApplicationHelper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XCApplicationHelper/XCApplicationHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XCApplicationHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XCApplicationHelper/XCApplicationHelper.modulemap";
+				PRODUCT_MODULE_NAME = XCApplicationHelper;
+				PRODUCT_NAME = XCApplicationHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -820,6 +918,70 @@
 			};
 			name = Debug;
 		};
+		D393D32816D32BE82C4C82D6EE65C6D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3A46C8A2B1F35C01569F8BFAE302AA6 /* XCApplicationHelper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XCApplicationHelper/XCApplicationHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XCApplicationHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XCApplicationHelper/XCApplicationHelper.modulemap";
+				PRODUCT_MODULE_NAME = XCApplicationHelper;
+				PRODUCT_NAME = XCApplicationHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE279FFB0FEE70DB287C216CF439AA1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1632C6C784071750FA6D5DD2A2ADBA81 /* Pods-XCPushNotification_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XCPushNotification_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XCPushNotification_Example/Pods-XCPushNotification_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -828,6 +990,15 @@
 			buildConfigurations = (
 				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
 				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31BC73D6F5DEC13B73DEB484C88B3D6C /* Build configuration list for PBXNativeTarget "XCPushNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				982F3558637A608E7D3D074527F84ABF /* Debug */,
+				7572019B467B4FFB15677DE76D5A0212 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -841,20 +1012,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		579C015555374C1339AE392C748A61F0 /* Build configuration list for PBXNativeTarget "XCPushNotification" */ = {
+		53E2C1FF277B155F0B83FC80E8DF416B /* Build configuration list for PBXNativeTarget "XCApplicationHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E0DF32924094F85A3C0A22AF677DFAB /* Debug */,
-				0262125C5417435905323E46E172646D /* Release */,
+				D393D32816D32BE82C4C82D6EE65C6D4 /* Debug */,
+				9EAC855335EDBE9281AB00B303D28F7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2E1A1078BF8143C576E49748C0F3489 /* Build configuration list for PBXNativeTarget "Pods-XCPushNotification_Example" */ = {
+		EB4F1DC3A03B5E8AB185523756D2703D /* Build configuration list for PBXNativeTarget "Pods-XCPushNotification_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				76DF1CFDEA258E91EC1B87CB40B435B5 /* Debug */,
-				71E47DBC59756A029B3BF9BAB8761855 /* Release */,
+				3796FB38385F6D82EDAFE55ABFEB64CB /* Debug */,
+				EE279FFB0FEE70DB287C216CF439AA1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

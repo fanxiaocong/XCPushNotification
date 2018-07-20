@@ -16,6 +16,7 @@
 #import "JPUSHService.h"
 #import <AdSupport/AdSupport.h>
 #import <XCMacros/XCMacros.h>
+#import <XCApplicationHelper/XCApplicationHelper.h>
 
 
 static NSString * const JPushChannel = @"Publish channel";
@@ -32,6 +33,12 @@ static NSString * const JPushChannel = @"Publish channel";
 {
     NSString *_appKey;      /// AppKey
     BOOL _isProduction;     /// 是否是生产环境
+}
+
+- (void)dealloc
+{
+    /// 移除对 App 的监听
+    [XCApplicationHelper unregisterApplication:self];
 }
 
 #pragma mark - 🔒 👀 Privite Method 👀
@@ -74,6 +81,8 @@ static NSString * const JPushChannel = @"Publish channel";
     {
         _appKey = appKey;
         _isProduction = isProduction;
+        /// 监听 App 的生命周期
+        [XCApplicationHelper registerApplication:self];
     }
     
     return self;

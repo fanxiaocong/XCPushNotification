@@ -11,9 +11,9 @@
  *  备注：推送通知协议类 🐾
  */
 
-#import "XCPushNotificationAppDelegateProtocol.h"
+#import <UIKit/UIKit.h>
 
-@protocol XCPushNotificationProtocol <XCPushNotificationAppDelegateProtocol>
+@protocol XCPushNotificationProtocol
 
 @required
 /** 👀 收到远程通知的回调 👀 */

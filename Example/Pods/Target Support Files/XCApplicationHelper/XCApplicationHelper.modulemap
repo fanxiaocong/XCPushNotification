@@ -1,0 +1,6 @@
+framework module XCApplicationHelper {
+  umbrella header "XCApplicationHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

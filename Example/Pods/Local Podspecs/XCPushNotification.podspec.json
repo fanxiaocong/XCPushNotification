@@ -1,6 +1,6 @@
 {
   "name": "XCPushNotification",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "summary": "XCPushNotification封装第三方推送功能，目前已经集成了 JPush 推送",
   "description": "XCPushNotification封装第三方推送功能，目前已经集成了 JPush 推送，使用方便",
   "homepage": "https://github.com/fanxiaocong/XCPushNotification",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/fanxiaocong/XCPushNotification.git",
-    "tag": "1.1.2"
+    "tag": "1.1.3"
   },
   "platforms": {
     "ios": "8.3"
@@ -34,14 +34,14 @@
         "XCPushNotification/XCPushNotification": [
 
         ],
-        "XCMacros": [
-
+        "XCApplicationHelper": [
+          "~> 0.0.1"
         ],
         "JPush": [
           "~> 3.0.6"
         ]
       },
-      "xcconfig": {
+      "pod_target_xcconfig": {
         "VALID_ARCHS": "armv7 armv7s arm64 x86_64"
       }
     }

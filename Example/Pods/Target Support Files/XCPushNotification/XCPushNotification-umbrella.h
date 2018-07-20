@@ -12,9 +12,7 @@
 
 #import "JPushNotification.h"
 #import "JPushNotificationFactory.h"
-#import "XCPushNotificationAppDelegate.h"
 #import "XCPushNotificationManager.h"
-#import "XCPushNotificationAppDelegateProtocol.h"
 #import "XCPushNotificationFactoryProtocol.h"
 #import "XCPushNotificationProtocol.h"
 

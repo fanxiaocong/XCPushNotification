@@ -10,10 +10,11 @@
 
 @implementation XCPushNotificationManager
 
-static id _instance = nil;
+#pragma mark - ⏳ 👀 LifeCycle Method 👀
 
 + (instancetype)sharePushNotificationManager
 {
+    static id _instance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         _instance = [[self alloc] init];
@@ -21,7 +22,6 @@ static id _instance = nil;
     
     return _instance;
 }
-
 
 + (void)configurePushNotificationPlatformType:(XCPushNotificationPlatformType)platformType
                                        appKey:(NSString *)appKey
